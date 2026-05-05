@@ -20,6 +20,14 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="properties">Properties</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#">Gallery</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="about">About us</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="ceo">CEO's Desk</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="team">Our Team</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="careers">Careers</a></li>
+                                    </ul>
+                                </li>
                                 <li class="nav-item"><a class="nav-link" href="faqs">FAQs</a></li>
                                 <li class="nav-item"><a class="nav-link" href="contact">Contact us</a></li>
                             </ul>

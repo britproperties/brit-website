@@ -28,7 +28,7 @@ include "./components/navbar.php";
                     <div class="page-single-sidebar">
                         <div class="page-category-list wow fadeInUp">
                             <ul>
-                                <li><a href="#faq_1">General questions</a></li>
+                                <li><a href="#faq_1">General Information</a></li>
                                 <li><a href="#faq_2">Planning & Design</a></li>
                                 <li><a href="#faq_3">Construction & Execution</a></li>
                                 <li><a href="#faq_4">Pricing & Payments</a></li>
@@ -44,7 +44,7 @@ include "./components/navbar.php";
                         <!-- FAQs section start -->
                         <div class="page-single-faqs" id="faq_1">
                             <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">General <span>questions</span></h2>
+                                <h2 class="text-anime-style-2" data-cursor="-opaque">General <span>Information</span></h2>
                             </div>
 
                             <!-- FAQ Accordion Start -->
@@ -53,16 +53,12 @@ include "./components/navbar.php";
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading1">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                            1. Are your construction processes transparent?
+                                            What services does BRIT Properties offer?
                                         </button>
                                     </h2>
                                     <div id="collapse1" class="accordion-collapse collapse" role="region" aria-labelledby="heading1" data-bs-parent="#accordion">
                                         <div class="accordion-body">
-                                            <p>Yes, we specialize in both residential and commercial construction projects, delivering customized solutions based on client requirements, budget, and timelines.</p>
-                                            <ul>
-                                                <li>Providing Quality Residential And Commercial Construction Services Together</li>
-                                                <li>Expertise Across Residential And Commercial Real Estate Development Projects</li>
-                                            </ul>
+                                            <p>BRIT Properties provides a full range of real estate services, including land acquisition, property development, estate agency, property marketing, and surveying. We support clients through every stage of their real estate journey.</p>
                                         </div>
                                     </div>
                                 </div>
