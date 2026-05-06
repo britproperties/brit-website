@@ -50,9 +50,9 @@
                         </div>
                         
                         <div class="footer-links">
-                            <h3 style="font-weight: 400;">Our Services</h3>
+                            <h3 style="font-weight: 400;">Quick Links</h3>
                             <ul>
-                                <li><a href="service-single.html">Residential Construction</a></li>
+                                <li><a href="testimonials">Testimonials</a></li>
                                 <li><a href="service-single.html">Commercial Construction</a></li>
                                 <li><a href="service-single.html">Real Estate Development</a></li>
                                 <li><a href="service-single.html">Renovation & Remodeling</a></li>
