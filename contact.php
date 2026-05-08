@@ -49,6 +49,7 @@ include "./components/navbar.php";
                                     <li><a href="https://www.facebook.com/britpropertyng/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="https://www.linkedin.com/company/brit-properties-nigeria-ltd/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                                     <li><a href="https://x.com/BritProperties" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="https://www.youtube.com/@britpropertiesng" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>

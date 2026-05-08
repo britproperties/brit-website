@@ -14,6 +14,7 @@
                                 <li><a href="https://www.facebook.com/britpropertyng/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="https://www.linkedin.com/company/brit-properties-nigeria-ltd/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                                 <li><a href="https://x.com/BritProperties" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com/@britpropertiesng" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -53,10 +54,6 @@
                             <h3 style="font-weight: 400;">Quick Links</h3>
                             <ul>
                                 <li><a href="testimonials">Testimonials</a></li>
-                                <li><a href="service-single.html">Commercial Construction</a></li>
-                                <li><a href="service-single.html">Real Estate Development</a></li>
-                                <li><a href="service-single.html">Renovation & Remodeling</a></li>
-                                <li><a href="service-single.html">Design & Planning</a></li>
                             </ul>
                         </div>
                     </div>
