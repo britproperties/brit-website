@@ -236,7 +236,7 @@ a:focus{
 }
 
 .btn-default.btn-highlighted::before{
-	background-image: url('../images/arrow-white.svg');
+	background-image: url('../images/arrow-primary.svg');
 }
 
 .readmore-btn{
