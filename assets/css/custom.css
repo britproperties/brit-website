@@ -2431,12 +2431,23 @@ header.main-header .header-sticky.active{
 } 
 
 .company-supports-logo{
-	text-align: center;
+	/* text-align: center; */
+    height: 100px;              /* same height for all slides */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 .company-supports-logo img{
-	width: 100%;
-	max-width: 170px;
+	/* width: 100%;
+	max-width: 170px; */
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;        /* prevents cutting/stretching */
+    display: block;
 }
 
 /************************************/

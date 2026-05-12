@@ -3,7 +3,7 @@ include "./components/head.php";
 include "./components/navbar.php";
 ?>
 
-   <div class="page-header bg-section parallaxie">
+   <div class="page-header bg-section parallaxie" style="background-image: url('./assets/images/testimonial-bg.jpg');background-position: center center;">
        <div class="container">
            <div class="row">
                <div class="col-lg-12">
@@ -56,6 +56,17 @@ include "./components/navbar.php";
                        </a>
                    </div>
                </div>
+
+               <div class="col-lg-4 col-md-6">
+                   <div class="video-gallery-image wow fadeInUp" data-wow-delay="0.4s">
+                       <a href="https://www.youtube.com/watch?v=vsrrS60j2fg" class="popup-video" data-cursor-text="Play">
+                           <figure>
+                               <img src="./assets/images/test_4.jpeg" alt="">
+                           </figure>
+                       </a>
+                   </div>
+               </div>
+
            </div>
        </div>
    </div>
