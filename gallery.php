@@ -95,15 +95,15 @@ include "./components/navbar.php";
 
                 <div class="col-xl-4 col-md-6">
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="csr-abuja">
+                        <a href="harmony-estate-allocation">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/csr-abuja/DSC08706.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img src="./assets/images/harmony-estate-allocation/5.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
                             <div class="project-item-content text-center">
-                                <h2>CSR Abuja</h2>
+                                <h2>Harmony Estate Allocation Asaba</h2>
                             </div>
                         </a>
                     </div>
