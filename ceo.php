@@ -84,7 +84,7 @@ include "./components/navbar.php";
                                 
                                 <div class="member-experience-image">
                                     <figure class="image-anime reveal">
-                                        <img src="./assets/images/team/CHZ_4376.jpg" alt="">
+                                        <img src="./assets/images/team/CHZ_4354.jpg" alt="">
                                     </figure>
                                 </div>
                             </div>

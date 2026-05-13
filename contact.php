@@ -34,8 +34,9 @@ include "./components/navbar.php";
                         
                         <div class="contact-info-list">
                             <div class="contact-info-item wow fadeInUp">
-                                <h2><a href="mailto:info@britproperties.ng">info@britproperties.ng</a></h2>
+                                <h2><a href="mailto:hello@britproperties.ng">hello@britproperties.ng</a></h2>
                                 <h3><a href="tel:+2349164449990">+234 916 444 9990</a></h3>
+                                <h3><a href="tel:+2348112427496">+234 811 242 7496</a></h3>
                             </div>
 
                             <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
