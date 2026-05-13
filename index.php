@@ -125,26 +125,19 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-7 col-md-9">
-                    <!-- Intro Video Content Start -->
                     <div class="intro-video-content">
-                        <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Watch Video</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Watch how we build <span>modern quality living spaces</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Benin City, the wait is over. Brit Properties is here.</h2>
                         </div>
-                        <!-- Section Title End -->
                     </div>
-                    <!-- Intro Video Content End -->
                 </div>
 
                 <div class="col-xl-5 col-md-3">
-                    <!-- Watch Video Circle Start -->
                     <div class="watch-video-circle">
-                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                            <img src="./assets/images/watch-video-circle.png" alt="">
+                        <a href="https://www.youtube.com/watch?v=ZY1Y2m1h8u8" class="popup-video" data-cursor-text="Play">
+                            <img src="./assets/images/watch-video-circle-new.png" alt="">
                         </a> 
-                    </div>     
-                    <!-- Watch Video Circle End -->
+                    </div>
                 </div>
             </div>
         </div>
