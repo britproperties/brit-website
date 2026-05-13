@@ -22,7 +22,7 @@ include "./components/navbar.php";
 }
 </style>
 
-    <div class="page-header bg-section parallaxie" style="background-image: url('./assets/images/team-bg.jpg');background-position: top center;">
+    <div class="page-header bg-section parallaxie" style="background-image: url('./assets/images/team/CHZ_4289.jpg');background-position: top center;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -59,7 +59,7 @@ include "./components/navbar.php";
                             <h2>Dorcas Obute</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                Genral Manager
+                                General Manager
                                 <span class="dot"></span>
                             </p>
                         </div>
@@ -133,17 +133,17 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4171.jpg"
-                                    alt="Oyasanmi Susan"
+                                <img src="./assets/images/team/CHZ_4106.jpg"
+                                    alt="Arowele Josephine"
                                     class="img-fluid">
                             </figure>
                         </div>
 
                         <div class="project-item-content text-center">
-                            <h2>Oyasanmi Susan</h2>
+                            <h2>Arowele Josephine</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                Admin
+                                CCMS
                                 <span class="dot"></span>
                             </p>
                         </div>
@@ -175,17 +175,17 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4106.jpg"
-                                    alt="Arowele Josephine"
+                                <img src="./assets/images/team/CHZ_4171.jpg"
+                                    alt="Oyasanmi Susan"
                                     class="img-fluid">
                             </figure>
                         </div>
 
                         <div class="project-item-content text-center">
-                            <h2>Arowele Josephine</h2>
+                            <h2>Oyasanmi Susan</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                CCMS
+                                Admin
                                 <span class="dot"></span>
                             </p>
                         </div>

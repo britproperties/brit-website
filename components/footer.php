@@ -1,5 +1,5 @@
     <footer class="main-footer bg-section dark-section">
-        <div class="container">
+        <div class="container" style="padding-right: 35px; padding-left: 35px;">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-header">

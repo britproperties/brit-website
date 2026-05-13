@@ -196,7 +196,7 @@ a:focus{
     right: 24px;
 	width: 24px;
 	height: 24px;
-	background-image: url('../images/arrow-primary.svg');
+	background-image: url('../images/arrow-white.svg');
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -236,7 +236,7 @@ a:focus{
 }
 
 .btn-default.btn-highlighted::before{
-	background-image: url('../images/arrow-white.svg');
+	background-image: url('../images/arrow-primary.svg');
 }
 
 .readmore-btn{
@@ -2446,7 +2446,7 @@ header.main-header .header-sticky.active{
     max-width: 100%;
     width: auto;
     height: auto;
-    object-fit: contain;        /* prevents cutting/stretching */
+    object-fit: contain;
     display: block;
 }
 
