@@ -54,6 +54,7 @@
                             <h3 style="font-weight: 400;">Quick Links</h3>
                             <ul>
                                 <li><a href="testimonials">Testimonials</a></li>
+                                <li><a href="">Affiliate</a></li>
                             </ul>
                         </div>
                     </div>

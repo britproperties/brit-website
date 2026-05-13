@@ -81,7 +81,7 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         </div>
     
                         <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="about" class="btn-default">Learn More About</a>
+                            <a href="about" class="btn-default">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -99,286 +99,58 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
 
                 <div class="col-xl-6">
-                    <!-- About Us Content Box Start -->
                     <div class="about-us-content-box wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- About Us Item List Start -->
-                        <div class="about-us-item-list">
-                            <!-- About Us Item Start -->
-                            <div class="about-us-item box-1">
-                                <!-- About Us Item Content Start -->
-                                <div class="about-us-item-content">
-                                    <h3>Your Trusted Partners</h3>
-                                    <p>We stand by you at every stage of the construction journey</p>
+                        <div class="who-we-tab-item tab-pane fade show active" id="first" role="tabpanel">
+                            <div class="who-we-tab-content">
+                                <div class="who-we-tab-header-content">
+                                    <h3 class="text-anime-style-2">Secure Land. Verified Process. No Guesswork.</h3>
+                                    <p>Real estate in Nigeria continues to appreciate due to population growth, urban expansion, and infrastructure development.</p>
+                                    <p>At BRIT Properties, we believe real estate is more than land. It is security, it is growth, and it is one of the most reliable ways to build lasting wealth.</p>
+                                    <p>In a market where uncertainty often surrounds property ownership, our focus is simple. We make land acquisition structured, transparent, and accessible for every client.</p>
+                                    <p>Our expertise spans land acquisition, infrastructure development, property marketing, and surveying. This allows us to support you at every stage, from your first enquiry to final allocation and ownership. You are not just buying land. You are entering a process designed to protect your investment and position you for long-term value.</p>
                                 </div>
-                                <!-- About Us Item Content End -->
-
-                                <!-- About Us Item Image Start -->
-                                <div class="about-us-item-image">
-                                    <figure>
-                                        <img src="./assets/images/about-us-item-image-1.png" alt="">
-                                    </figure>
+                                <div class="who-we-btn mt-3">
+                                    <a href="about" class="btn-default">About us</a>
                                 </div>
-                                <!-- About Us Item Image End -->
                             </div>
-                            <!-- About Us Item End -->
-
-                            <!-- About Us Item Start -->
-                            <div class="about-us-item box-2">
-                                <!-- About Us Item Content Start -->
-                                <div class="about-us-item-content">
-                                    <h3>Modern Design Solution</h3>
-                                    <p>We stand by you at every stage of the construction journey</p>
-                                </div>
-                                <!-- About Us Item Content End -->
-
-                                <!-- About Us Item Image Start -->
-                                <div class="about-us-item-image">
-                                    <figure class="image-anime">
-                                        <img src="./assets/images/about-us-item-image-2.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <!-- About Us Item Image End -->
-                            </div>
-                            <!-- About Us Item End -->
                         </div>
-                        <!-- About Us Item List End -->
-
-                        <!-- About Counter List Start -->
-                        <div class="about-counter-item-list">
-                            <!-- About Counter Item Start -->
-                            <div class="about-counter-item">
-                                <h2><span class="counter">25</span>+</h2>
-                                <p>Real Estate Expertise</p>
-                            </div>
-                            <!-- About Counter Item End -->
-
-                            <!-- About Counter Item Start -->
-                            <div class="about-counter-item">
-                                <h2><span class="counter">50</span>+</h2>
-                                <p>Expert Team Members</p>
-                            </div>
-                            <!-- About Counter Item End -->
-
-                            <!-- About Counter Item Start -->
-                            <div class="about-counter-item">
-                                <h2><span class="counter">500</span>+</h2>
-                                <p>Handed-Over Project</p>
-                            </div>
-                            <!-- About Counter Item End -->
-                        </div>
-                        <!-- About Counter List End -->
+                        
                     </div>
-                    <!-- About Us Content Box End -->
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Our Service Section Start -->
-    <div class="our-service bg-section">
+    <div class="intro-video bg-section dark-section parallaxie">
         <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">Our Services</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Reliable services for real <span>estate and construction</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row service-item-list">
-                <div class="col-xl-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item active wow fadeInUp">
-                        <!-- Service Item Image Start -->
-                        <div class="service-item-image">
-                            <figure>
-                                <img src="./assets/images/service-1.jpg" alt="">
-                            </figure>
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-md-9">
+                    <!-- Intro Video Content Start -->
+                    <div class="intro-video-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Watch Video</span>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Watch how we build <span>modern quality living spaces</span></h2>
                         </div>
-                        <!-- Service Item Image End -->
-
-                        <!-- Service Item Body Start -->
-                        <div class="service-item-body">
-                            <div class="icon-box">
-                                <img src="./assets/images/icon-service-item-1.svg" alt="">
-                            </div>
-
-                            <!-- Service Item Body Content Start -->
-                            <div class="service-item-body-content">
-                                <!-- Service Item Content Start -->
-                                <div class="service-item-content">
-                                    <h2><a href="service-single.html">Residential Construction</a></h2>
-                                    <p>We build high-quality durability, and modern living.</p>
-                                </div>
-                                <!-- Service Item Content End -->
-
-                                <!-- Service Item Button Start -->
-                                <div class="service-item-btn">
-                                    <a href="service-single.html" class="readmore-btn">View Details</a>
-                                </div>
-                                <!-- Service Item Button End -->
-                            </div>
-                            <!-- Service Item Body Content End -->
-                        </div>
-                        <!-- Service Item Body End -->
+                        <!-- Section Title End -->
                     </div>
-                    <!-- Service Item End -->
+                    <!-- Intro Video Content End -->
                 </div>
 
-                <div class="col-xl-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Service Item Image Start -->
-                        <div class="service-item-image">
-                            <figure>
-                                <img src="./assets/images/service-2.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Service Item Image End -->
-
-                        <!-- Service Item Body Start -->
-                        <div class="service-item-body">
-                            <div class="icon-box">
-                                <img src="./assets/images/icon-service-item-2.svg" alt="">
-                            </div>
-
-                            <!-- Service Item Body Content Start -->
-                            <div class="service-item-body-content">
-                                <!-- Service Item Content Start -->
-                                <div class="service-item-content">
-                                    <h2><a href="service-single.html">Commercial Construction</a></h2>
-                                    <p>We build high-quality durability, and modern living.</p>
-                                </div>
-                                <!-- Service Item Content End -->
-
-                                <!-- Service Item Button Start -->
-                                <div class="service-item-btn">
-                                    <a href="service-single.html" class="readmore-btn">View Details</a>
-                                </div>
-                                <!-- Service Item Button End -->
-                            </div>
-                            <!-- Service Item Body Content End -->
-                        </div>
-                        <!-- Service Item Body End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-xl-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Service Item Image Start -->
-                        <div class="service-item-image">
-                            <figure>
-                                <img src="./assets/images/service-3.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Service Item Image End -->
-
-                        <!-- Service Item Body Start -->
-                        <div class="service-item-body">
-                            <div class="icon-box">
-                                <img src="./assets/images/icon-service-item-3.svg" alt="">
-                            </div>
-
-                            <!-- Service Item Body Content Start -->
-                            <div class="service-item-body-content">
-                                <!-- Service Item Content Start -->
-                                <div class="service-item-content">
-                                    <h2><a href="service-single.html">Project Management</a></h2>
-                                    <p>We build high-quality durability, and modern living.</p>
-                                </div>
-                                <!-- Service Item Content End -->
-
-                                <!-- Service Item Button Start -->
-                                <div class="service-item-btn">
-                                    <a href="service-single.html" class="readmore-btn">View Details</a>
-                                </div>
-                                <!-- Service Item Button End -->
-                            </div>
-                            <!-- Service Item Body Content End -->
-                        </div>
-                        <!-- Service Item Body End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-xl-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- Service Item Image Start -->
-                        <div class="service-item-image">
-                            <figure>
-                                <img src="./assets/images/service-4.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Service Item Image End -->
-
-                        <!-- Service Item Body Start -->
-                        <div class="service-item-body">
-                            <div class="icon-box">
-                                <img src="./assets/images/icon-service-item-4.svg" alt="">
-                            </div>
-
-                            <!-- Service Item Body Content Start -->
-                            <div class="service-item-body-content">
-                                <!-- Service Item Content Start -->
-                                <div class="service-item-content">
-                                    <h2><a href="service-single.html">Design & Planning</a></h2>
-                                    <p>We build high-quality durability, and modern living.</p>
-                                </div>
-                                <!-- Service Item Content End -->
-
-                                <!-- Service Item Button Start -->
-                                <div class="service-item-btn">
-                                    <a href="service-single.html" class="readmore-btn">View Details</a>
-                                </div>
-                                <!-- Service Item Button End -->
-                            </div>
-                            <!-- Service Item Body Content End -->
-                        </div>
-                        <!-- Service Item Body End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Section Footer Text Start -->
-                    <div class="section-footer-text section-satisfy-img wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Satisfy Client Images Start -->
-                        <div class="satisfy-client-images">
-                            <div class="satisfy-client-image">
-                                <figure class="image-anime">
-                                    <img src="./assets/images/author-1.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="satisfy-client-image add-more">
-                                <img src="./assets/images/icon-phone-primary.svg" alt="">
-                            </div>
-                        </div>
-                        <!-- Satisfy Client Images End -->    
-                        <p>Complete Real Estate And Construction Solutions - <a href="services.html">View all services.</a></p>
-                        <ul>
-                            <li><span class="counter">4.9</span>/5</li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                            <li>Our 4200 Review </li>
-                        </ul>
-                    </div>
-                    <!-- Section Footer Text End -->
+                <div class="col-xl-5 col-md-3">
+                    <!-- Watch Video Circle Start -->
+                    <div class="watch-video-circle">
+                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
+                            <img src="./assets/images/watch-video-circle.png" alt="">
+                        </a> 
+                    </div>     
+                    <!-- Watch Video Circle End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Service Section End -->
+
+
 
     <!-- Who We Are Section Start -->
     <div class="who-we-are">
@@ -701,187 +473,16 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
     </div>
-    <!-- Who We Are Section End -->
+    
 
-    <!-- Intro Video Start -->
-    <div class="intro-video bg-section dark-section parallaxie">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-7 col-md-9">
-                    <!-- Intro Video Content Start -->
-                    <div class="intro-video-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Watch Video</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Watch how we build <span>modern quality living spaces</span></h2>
-                        </div>
-                        <!-- Section Title End -->
-                    </div>
-                    <!-- Intro Video Content End -->
-                </div>
-
-                <div class="col-xl-5 col-md-3">
-                    <!-- Watch Video Circle Start -->
-                    <div class="watch-video-circle">
-                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                            <img src="./assets/images/watch-video-circle.png" alt="">
-                        </a> 
-                    </div>     
-                    <!-- Watch Video Circle End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Intro Video End -->
-
-    <!-- Our Commitment Section Start -->
-    <div class="our-commitment">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5">
-                    <!-- Our Commitment Content Start -->
-                    <div class="our-commitment-content">
-                        <!-- Our Commitment Header Content Start -->
-                        <div class="our-commitment-header-content">
-                            <!-- Section Title Start -->
-                            <div class="section-title">
-                                <span class="section-sub-title wow fadeInUp">Our Commitment</span>
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Dedicated to honest & <span>reliable construction</span></h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.2s">We are committed to delivering construction services built on honesty, reliability, and transparency from planning to completion, we follow clear processes.</p>
-                            </div>
-                            <!-- Section Title End -->
-
-                            <!-- Our Commitment Button Start -->
-                            <div class="our-commitment-btn wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="contact.html" class="btn-default">Contact Us</a>
-                            </div>
-                            <!-- Our Commitment Button End -->
-                        </div>
-                        <!-- Our Commitment Header Content End -->
-
-                        <!-- Commitment Client Box Start -->
-                        <div class="commitment-client-box wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- Satisfy Client Images Start -->
-                            <div class="satisfy-client-images">
-                                <div class="satisfy-client-image">
-                                    <figure class="image-anime">
-                                        <img src="./assets/images/author-1.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="satisfy-client-image">
-                                    <figure class="image-anime">
-                                        <img src="./assets/images/author-2.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="satisfy-client-image">
-                                    <figure class="image-anime">
-                                        <img src="./assets/images/author-3.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="satisfy-client-image">
-                                    <figure class="image-anime">
-                                        <img src="./assets/images/author-4.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="satisfy-client-image add-more">
-                                    <i class="fa fa-solid fa-plus"></i>
-                                </div>
-                            </div>
-                            <!-- Satisfy Client Images End -->
-
-                            <!-- Commitment Client Box Content Start -->
-                            <div class="commitment-client-box-content">
-                                <p>“Creating modern homes and commercial spaces precision construction and trusted real estate expertise.”</p>
-                            </div>
-                            <!-- Commitment Client Box Content End -->
-                        </div>
-                        <!-- Commitment Client Box End -->
-                    </div>
-                    <!-- Our Commitment Content End -->
-                </div>
-
-                <div class="col-xl-7">
-                    <!-- Our Commitment Item List Start -->
-                    <div class="our-commitment-item-list">
-                        <!-- Our Commitment Item Start -->
-                        <div class="commitment-item wow fadeInUp">
-                            <!-- Commitment Item Header Start -->
-                            <div class="commitment-item-header">
-                                <div class="icon-box">
-                                    <img src="./assets/images/icon-commitment-item-1.svg" alt="">
-                                </div>
-                                <div class="commitment-item-title">
-                                    <h3>Quality Craftsmanship - Superior construction with attention to detail</h3>
-                                </div>
-                            </div>
-                            <!-- Commitment Item Header End -->
-
-                            <!-- Commitment Item Content Start -->
-                            <div class="commitment-item-content">
-                                <p>We prioritize quality craftsmanship in every project, ensuring that every detail is executed with precision and care. Our skilled professionals use the finest materials.</p>
-                            </div>
-                            <!-- Commitment Item Content End -->
-                        </div>
-                        <!-- Our Commitment Item End -->
-
-                        <!-- Our Commitment Item Start -->
-                        <div class="commitment-item wow fadeInUp" data-wow-delay="0.2s">
-                            <!-- Commitment Item Header Start -->
-                            <div class="commitment-item-header">
-                                <div class="icon-box">
-                                    <img src="./assets/images/icon-commitment-item-2.svg" alt="">
-                                </div>
-                                <div class="commitment-item-title">
-                                    <h3>Sustainability - Durable and environmentally conscious practices</h3>
-                                </div>
-                            </div>
-                            <!-- Commitment Item Header End -->
-
-                            <!-- Commitment Item Content Start -->
-                            <div class="commitment-item-content">
-                                <p>We prioritize quality craftsmanship in every project, ensuring that every detail is executed with precision and care. Our skilled professionals use the finest materials.</p>
-                            </div>
-                            <!-- Commitment Item Content End -->
-                        </div>
-                        <!-- Our Commitment Item End -->
-
-                        <!-- Our Commitment Item Start -->
-                        <div class="commitment-item wow fadeInUp" data-wow-delay="0.4s">
-                            <!-- Commitment Item Header Start -->
-                            <div class="commitment-item-header">
-                                <div class="icon-box">
-                                    <img src="./assets/images/icon-commitment-item-3.svg" alt="">
-                                </div>
-                                <div class="commitment-item-title">
-                                    <h3>Modern Techniques - Innovative construction and design methods</h3>
-                                </div>
-                            </div>
-                            <!-- Commitment Item Header End -->
-
-                            <!-- Commitment Item Content Start -->
-                            <div class="commitment-item-content">
-                                <p>We prioritize quality craftsmanship in every project, ensuring that every detail is executed with precision and care. Our skilled professionals use the finest materials.</p>
-                            </div>
-                            <!-- Commitment Item Content End -->
-                        </div>
-                        <!-- Our Commitment Item End -->
-                    </div>
-                    <!-- Our Commitment Item List End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Commitment Section End -->
-
-    <!-- Our Project Section Start -->
     <div class="our-project bg-section dark-section">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">Our Projects</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our work defined by precision <span>strength And Integrity</span></h2>
+                        <span class="section-sub-title wow fadeInUp">Available Verified Properties</span>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Invest in high-growth lands with flexible payments.</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -1055,261 +656,6 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     </div>
                     <!-- Fact Item List End -->
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Fact Section End -->
-
-    <div class="our-testimonials bg-section">
-        <div class="container">
-             <div class="row section-row align-items-center">
-                <div class="col-xl-7">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <span class="section-sub-title wow fadeInUp">Our Testimonials</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">What our clients say about our <span>construction services</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-xl-5">
-                    <!-- Section Content Btn Start -->
-                    <div class="section-content-btn">
-                        <!-- Section Title Content Start -->
-                        <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
-                            <p>Our clients' feedback reflects our commitment to quality, reliability, and professionalism.</p>
-                        </div>
-                        <!-- Section Title Content End -->
-                        
-                        <!-- Section Button Start -->
-                        <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a class="btn-default" href="testimonials.html">View All Reviews</a>
-                        </div>
-                        <!-- Section Button End -->
-                    </div>
-                    <!-- Section Content Btn End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Testimonial Slider Start -->
-                    <div class="testimonial-slider wow fadeInUp">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
-                                    <div class="testimonial-item">
-                                        <!-- Testimonial Item Header Start -->
-                                        <div class="testimonial-item-header">
-                                            <!-- Testimonial Item Rating Start -->
-                                            <div class="testimonial-item-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <!-- Testimonial Item Rating End -->
-
-                                            <!-- Testimonial Item Quote Start -->
-                                            <div class="testimonial-item-quote">
-                                                <img src="./assets/images/icon-testimonial-quote.svg" alt="">
-                                            </div>
-                                            <!-- Testimonial Item Quote End -->
-                                        </div>
-                                        <!-- Testimonial Item Header End -->
-
-                                        <!-- Testimonial Item Body Start -->
-                                        <div class="testimonial-item-body">
-                                            <!-- Testimonial Item Content Start -->
-                                            <div class="testimonial-item-content">
-                                                <p>“The team delivered exceptional quality and maintained complete transparency throughout the project. The construction was completed on time, and the finishing exceeded our workmanship and strong project management.”</p>
-                                            </div>
-                                            <!-- Testimonial Item Content End -->
-
-                                            <!-- Testimonial Item Author Start-->
-                                            <div class="testimonial-item-author">
-                                                <div class="testimonial-author-image">
-                                                    <figure>
-                                                        <img src="./assets/images/author-1.jpg" alt="">
-                                                    </figure>
-                                                </div>
-                                                <div class="testimonial-author-content">
-                                                    <h3>Neha Verma</h3>
-                                                    <p>Residential Client & Owner</p>
-                                                </div>
-                                            </div>
-                                            <!-- Testimonial Item Author End-->
-                                        </div>
-                                        <!-- Testimonial Item Body End -->
-                                    </div>
-                                    <!-- Testimonial Item End -->
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
-                                    <div class="testimonial-item">
-                                        <!-- Testimonial Item Header Start -->
-                                        <div class="testimonial-item-header">
-                                            <!-- Testimonial Item Rating Start -->
-                                            <div class="testimonial-item-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <!-- Testimonial Item Rating End -->
-
-                                            <!-- Testimonial Item Quote Start -->
-                                            <div class="testimonial-item-quote">
-                                                <img src="./assets/images/icon-testimonial-quote.svg" alt="">
-                                            </div>
-                                            <!-- Testimonial Item Quote End -->
-                                        </div>
-                                        <!-- Testimonial Item Header End -->
-
-                                        <!-- Testimonial Item Body Start -->
-                                        <div class="testimonial-item-body">
-                                            <!-- Testimonial Item Content Start -->
-                                            <div class="testimonial-item-content">
-                                                <p>“The team delivered exceptional quality and maintained complete transparency throughout the project. The construction was completed on time, and the finishing exceeded our workmanship and strong project management.”</p>
-                                            </div>
-                                            <!-- Testimonial Item Content End -->
-
-                                            <!-- Testimonial Item Author Start-->
-                                            <div class="testimonial-item-author">
-                                                <div class="testimonial-author-image">
-                                                    <figure>
-                                                        <img src="./assets/images/author-2.jpg" alt="">
-                                                    </figure>
-                                                </div>
-                                                <div class="testimonial-author-content">
-                                                    <h3>Purvi Chopra</h3>
-                                                    <p>Residential Client & Owner</p>
-                                                </div>
-                                            </div>
-                                            <!-- Testimonial Item Author End-->
-                                        </div>
-                                        <!-- Testimonial Item Body End -->
-                                    </div>
-                                    <!-- Testimonial Item End -->
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
-                                    <div class="testimonial-item">
-                                        <!-- Testimonial Item Header Start -->
-                                        <div class="testimonial-item-header">
-                                            <!-- Testimonial Item Rating Start -->
-                                            <div class="testimonial-item-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <!-- Testimonial Item Rating End -->
-
-                                            <!-- Testimonial Item Quote Start -->
-                                            <div class="testimonial-item-quote">
-                                                <img src="./assets/images/icon-testimonial-quote.svg" alt="">
-                                            </div>
-                                            <!-- Testimonial Item Quote End -->
-                                        </div>
-                                        <!-- Testimonial Item Header End -->
-
-                                        <!-- Testimonial Item Body Start -->
-                                        <div class="testimonial-item-body">
-                                            <!-- Testimonial Item Content Start -->
-                                            <div class="testimonial-item-content">
-                                                <p>“The team delivered exceptional quality and maintained complete transparency throughout the project. The construction was completed on time, and the finishing exceeded our workmanship and strong project management.”</p>
-                                            </div>
-                                            <!-- Testimonial Item Content End -->
-
-                                            <!-- Testimonial Item Author Start-->
-                                            <div class="testimonial-item-author">
-                                                <div class="testimonial-author-image">
-                                                    <figure>
-                                                        <img src="./assets/images/author-3.jpg" alt="">
-                                                    </figure>
-                                                </div>
-                                                <div class="testimonial-author-content">
-                                                    <h3>Amita Patel</h3>
-                                                    <p>Residential Client & Owner</p>
-                                                </div>
-                                            </div>
-                                            <!-- Testimonial Item Author End-->
-                                        </div>
-                                        <!-- Testimonial Item Body End -->
-                                    </div>
-                                    <!-- Testimonial Item End -->
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
-                                    <div class="testimonial-item">
-                                        <!-- Testimonial Item Header Start -->
-                                        <div class="testimonial-item-header">
-                                            <!-- Testimonial Item Rating Start -->
-                                            <div class="testimonial-item-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <!-- Testimonial Item Rating End -->
-
-                                            <!-- Testimonial Item Quote Start -->
-                                            <div class="testimonial-item-quote">
-                                                <img src="./assets/images/icon-testimonial-quote.svg" alt="">
-                                            </div>
-                                            <!-- Testimonial Item Quote End -->
-                                        </div>
-                                        <!-- Testimonial Item Header End -->
-
-                                        <!-- Testimonial Item Body Start -->
-                                        <div class="testimonial-item-body">
-                                            <!-- Testimonial Item Content Start -->
-                                            <div class="testimonial-item-content">
-                                                <p>“The team delivered exceptional quality and maintained complete transparency throughout the project. The construction was completed on time, and the finishing exceeded our workmanship and strong project management.”</p>
-                                            </div>
-                                            <!-- Testimonial Item Content End -->
-
-                                            <!-- Testimonial Item Author Start-->
-                                            <div class="testimonial-item-author">
-                                                <div class="testimonial-author-image">
-                                                    <figure>
-                                                        <img src="./assets/images/author-4.jpg" alt="">
-                                                    </figure>
-                                                </div>
-                                                <div class="testimonial-author-content">
-                                                    <h3>Rahul Mehta</h3>
-                                                    <p>Residential Client</p>
-                                                </div>
-                                            </div>
-                                            <!-- Testimonial Item Author End-->
-                                        </div>
-                                        <!-- Testimonial Item Body End -->
-                                    </div>
-                                    <!-- Testimonial Item End -->
-                                </div>
-                                <!-- Testimonial Slide End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonial Slider End -->
-                </div>
-
             </div>
         </div>
     </div>
