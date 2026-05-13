@@ -31,7 +31,7 @@ include "./components/navbar.php";
                         <a href="csr-abuja">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/csr-abuja/DSC08706.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img src="./assets/images/csr-abuja/22.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
