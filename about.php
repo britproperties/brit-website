@@ -88,92 +88,70 @@ include "./components/navbar.php";
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
-                    <!-- Our Approach ./assets/images Start -->
-                    <div class="our-approach-./assets/images">
-                        <!-- Our Approach Image Box-1 Start -->
+                    <div class="our-approach-images">
                         <div class="our-approach-image-box-1">
-                            <!-- Our Approach Image Start -->
-                            <div class="our-approach-images">
-                                <figure class="image-anime reveal">
-                                    <img src="./assets/images/our-approach-image-1.jpg" alt="">
-                                </figure>
-                            </div> 
-                            <!-- Our Approach Image End -->
-                        </div>
-                        <!-- Our Approach Image Box-1 End -->
-
-                        <!-- Our Approach Image Box-2 Start -->
-                        <div class="our-approach-image-box-2">
-                            <!-- Our Approach Image Start -->
                             <div class="our-approach-image">
                                 <figure class="image-anime reveal">
-                                    <img src="./assets/images/our-approach-image-2.jpg" alt="">
+                                    <img src="./assets/images/abt-img2.jpg" alt="">
                                 </figure>
                             </div> 
-                            <!-- Our Approach Image End -->
                         </div>
-                        <!-- Our Approach Image Box-2 End -->
+                        
+                        <div class="our-approach-image-box-2">
+                            <div class="our-approach-image">
+                                <figure class="image-anime reveal">
+                                    <img src="./assets/images/abt-img1.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Our Approach ./assets/images End -->
                 </div>
 
                 <div class="col-xl-6">
-                    <!-- Our Approach Content Start -->
                     <div class="our-approach-content">
-                        <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Our Approach</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Our strategic approach to <span>quality construction</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We follow a strategic, detail-driven approach that combines careful planning, skilled execution strict quality standards to deliver durable, high-value construction projects.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Our <span>Approach</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">We do not believe in guesswork. We believe in systems that give you clarity and confidence at every step.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">At BRIT Properties, real estate is not just an opportunity. It is a powerful financial tool. As cities expand and land continues to appreciate, owning property becomes one of the smartest decisions you can make.</p>
+                            <p></p>
                         </div>
-                        <!-- Section Title End -->
 
-                        <!-- Our Approach Item Box Start -->
                         <div class="approach-item-box">
-                            <!-- Our Approach Item Start -->
                             <div class="approach-item wow fadeInUp">
                                 <div class="icon-box">
                                     <img src="./assets/images/icon-approach-item-1.svg" alt="">
                                 </div>
                                 <div class="approach-item-content">
                                     <h3>Our Mission</h3>
-                                    <p>Our mission is to build lasting value with quality craftsmanship.</p>
+                                    <p>To gain our clients’ loyalty through excellent service delivery.</p>
                                 </div>
                             </div>
-                            <!-- Our Approach Item End -->
 
-                            <!-- Our Approach Item Start -->
                             <div class="approach-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon-box">
                                     <img src="./assets/images/icon-approach-item-2.svg" alt="">
                                 </div>
                                 <div class="approach-item-content">
                                     <h3>Our Vision</h3>
-                                    <p>Our vision is to build lasting value with quality craftsmanship.</p>
+                                    <p>To be the face of Africa’s most affordable real estate by 2030.</p>
                                 </div>
                             </div>
-                            <!-- Our Approach Item End -->
 
-                            <!-- Our Approach Item Start -->
                             <div class="approach-item wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="icon-box">
                                     <img src="./assets/images/icon-approach-item-3.svg" alt="">
                                 </div>
                                 <div class="approach-item-content">
-                                    <h3>Our Values</h3>
-                                    <p>Our values are built on integrity, quality, and accountability. We are committed transparent processes, skilled craftsmanship, and delivering projects that stand the test of time.</p>
+                                    <h3>Our Purpose</h3>
+                                    <p>Owning a home meant for you is a bright note.</p>
                                 </div>
                             </div>
-                            <!-- Our Approach Item End -->
                         </div>
-                        <!-- Our Approach Item Box End -->
                     </div>
-                    <!-- Our Approach Content End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Approach Section End -->
 
     <!-- Our History Section Start -->
     <div class="our-history">
