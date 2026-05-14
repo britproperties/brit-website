@@ -184,114 +184,67 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             <div class="row align-items-center">
                 <div class="col-xl-6">
-                    <!-- Our Fact Image Box Start -->
                     <div class="our-fact-image-box">
-                        <!-- Our Fact Image Box 1 Start -->
                         <div class="our-fact-image-box-1 wow fadeInUp">
-                            <!-- Our Fact Image start -->
                             <div class="our-fact-image">
                                 <figure class="image-anime">
-                                    <img src="./assets/images/our-fact-image-1.jpg" alt="">
+                                    <img src="./assets/images/hme-img2.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
-                        <!-- Our Fact Image Box 1 End -->
-
-                        <!-- Our Fact Image Box 2 Start -->
+                        
                         <div class="our-fact-image-box-2">
-                            <!-- Our Fact Image Start -->
                             <div class="our-fact-image">
                                 <figure class="image-anime reveal">
-                                    <img src="./assets/images/our-fact-image-2.jpg" alt="">
+                                    <img src="./assets/images/hme-img1.jpg" alt="">
                                 </figure>
                             </div>
-                            <!-- Our Fact Image End -->
                         </div>
-                        <!-- Our Fact Image Box 2 End -->
                     </div>
-                    <!-- Our Fact Image Box End -->
                 </div>
 
                 <div class="col-xl-6">
-                    <!-- Fact Item List Start -->
-                    <div class="fact-item-list wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Fact Item Start -->
-                        <div class="fact-item">
-                            <!-- Fact Item Title Start -->
-                            <div class="fact-item-title">
-                                <ul>
-                                    <li>Residential</li>
-                                </ul>
-                            </div>
-                            <!-- Fact Item Title End -->
-
-                            <!-- Fact Item Counter Start -->
-                            <div class="fact-item-counter-content">
-                                <h2><span class="counter">25</span>+</h2>
-                                <p>Year Experience Real Estate</p>
-                            </div>
-                            <!-- Fact Item Counter End -->
+                    <div class="who-we-are-content-box-metal">
+                        <div class="section-title">
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Why Clients Choose <span>Brit Properties</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Our clients are not just buying land. They are building assets, securing futures, and making informed financial decisions.</p>
                         </div>
-                        <!-- Fact Item End -->
-
-                        <!-- Fact Item Start -->
-                        <div class="fact-item">
-                            <!-- Fact Item Title Start -->
-                            <div class="fact-item-title">
-                                <ul>
-                                    <li>Residential</li>
-                                </ul>
+                        
+                        <div class="who-we-are-body-box-metal wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="who-we-are-body-item-metal">
+                                <div class="icon-box">
+                                    <img src="./assets/images/icon-who-we-are-1-metal.svg" alt="">
+                                </div>
+                                <div class="who-we-are-body-content-metal">
+                                    <h3>Affordable Entry, Long-Term Value</h3>
+                                </div>
                             </div>
-                            <!-- Fact Item Title End -->
-
-                            <!-- Fact Item Counter Start -->
-                            <div class="fact-item-counter-content">
-                                <h2><span class="counter">50</span>+</h2>
-                                <p>Our Expert Team Members</p>
+                            
+                            <div class="who-we-are-body-item-metal">
+                                <div class="icon-box">
+                                    <img src="./assets/images/icon-who-we-are-2-metal.svg" alt="">
+                                </div>
+                                <div class="who-we-are-body-content-metal">
+                                    <h3>Structured and Reliable Process</h3>
+                                </div>
                             </div>
-                            <!-- Fact Item Counter End -->
+                            
+                            <div class="who-we-are-body-item-metal">
+                                <div class="icon-box">
+                                    <img src="./assets/images/icon-who-we-are-3-metal.svg" alt="">
+                                </div>
+                                <div class="who-we-are-body-content-metal">
+                                    <h3>Transparent Transactions</h3>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Fact Item End -->
-
-                        <!-- Fact Item Start -->
-                        <div class="fact-item">
-                            <!-- Fact Item Title Start -->
-                            <div class="fact-item-title">
-                                <ul>
-                                    <li>Residential</li>
-                                </ul>
+                        
+                        <div class="who-we-are-footer-box-metal wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="who-we-are-btn-metal">
+                                <a href="https://app.britproperties.ng/sign-up" target="_blank" class="btn-default">Get Started</a>
                             </div>
-                            <!-- Fact Item Title End -->
-
-                            <!-- Fact Item Counter Start -->
-                            <div class="fact-item-counter-content">
-                                <h2><span class="counter">500</span>+</h2>
-                                <p>Project Completed Real Estate</p>
-                            </div>
-                            <!-- Fact Item Counter End -->
                         </div>
-                        <!-- Fact Item End -->
-
-                        <!-- Fact Item Start -->
-                        <div class="fact-item">
-                            <!-- Fact Item Title Start -->
-                            <div class="fact-item-title">
-                                <ul>
-                                    <li>Residential</li>
-                                </ul>
-                            </div>
-                            <!-- Fact Item Title End -->
-
-                            <!-- Fact Item Counter Start -->
-                            <div class="fact-item-counter-content">
-                                <h2><span class="counter">300</span>+</h2>
-                                <p>Out Truste Happy homeowner</p>
-                            </div>
-                            <!-- Fact Item Counter End -->
-                        </div>
-                        <!-- Fact Item End -->
                     </div>
-                    <!-- Fact Item List End -->
                 </div>
             </div>
         </div>
