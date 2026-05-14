@@ -3,161 +3,87 @@ include "./components/head.php";
 include "./components/navbar.php";
 ?>
 
-    <!-- Page Header Section Start -->
-    <div class="page-header bg-section parallaxie">
+    <div class="page-header bg-section parallaxie" style="background-image: url('./assets/images/abt-breacrumb.jpg');background-position: top center;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
                         <h1 class="text-anime-style-2" data-cursor="-opaque">About us</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item"><a href="about.html">About Us</a></li>
+                                <li class="breadcrumb-item"><a href="./">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">About Us</a></li>
                             </ol>
                         </nav>
                     </div>
-                    <!-- Page Header Box End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Page Header Section End -->
 
-    <!-- About US Section Start -->
+
     <div class="about-us">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-xl-7">
-                    <!-- Section Title Start -->
                     <div class="section-title">
-                        <span class="section-sub-title wow fadeInUp">About Our Construction</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Trusted builders creating modern <span>spaces with integrity</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Own Verified Land in Nigeria. <span>Build Real Wealth From Real Assets.</span></h2>
                     </div>
-                    <!-- Section Title End -->
                 </div>
 
                 <div class="col-xl-5">
-                    <!-- Section Content Button Start -->
                     <div class="section-content-btn">
-                        <!-- Section Title Content Start -->
                         <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
-                            <p>We are trusted builders committed to delivering modern, quality spaces built with honesty, precision, and care.</p>
+                            <p>At BRIT Properties, we believe real estate is more than land. It is security, it is growth, and it is one of the most reliable ways to build lasting wealth.</p>
                         </div>
-                        <!-- Section Title Content End -->
-    
-                        <!-- Section Button Start -->
+                        
                         <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">Contact Now</a>
+                            <a href="https://app.britproperties.ng/sign-up" target="_blank" class="btn-default">Get Started</a>
                         </div>
-                        <!-- Section Button End -->
-                    </div>   
-                    <!-- Section Content Button End -->
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-xl-6">
-                    <!-- About US Image Box Start -->
                     <div class="about-us-image-box wow fadeInUp">
-                        <!-- About Us Image Start -->
                         <div class="about-us-image">
                             <figure class="image-anime">
-                                <img src="./assets/images/about-us-image.jpg.html" alt="">
+                                <img src="./assets/images/hme_abt.jpg" alt="" style="width:100%; height:100%; object-fit:cover; object-position:top;">
                             </figure>
                         </div>
-                        <!-- About Us Image End -->
-
-                        <!-- About Us Circle Start -->
-                        <div class="about-us-circle">
-                            <a href="projects.html">
-                                <img src="./assets/images/circle-project.png" alt="">
-                            </a>
-                        </div>
-                        <!-- About Us Circle End -->
                     </div>
-                    <!-- About Us Image Box End -->
                 </div>
 
                 <div class="col-xl-6">
-                    <!-- About Us Content Box Start -->
                     <div class="about-us-content-box wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- About Us Item List Start -->
-                        <div class="about-us-item-list">
-                            <!-- About Us Item Start -->
-                            <div class="about-us-item box-1">
-                                <!-- About Us Item Content Start -->
-                                <div class="about-us-item-content">
-                                    <h3>Your Trusted Partners</h3>
-                                    <p>We stand by you at every stage of the construction journey</p>
+                        <div class="who-we-tab-item tab-pane fade show active" id="first" role="tabpanel">
+                            <div class="who-we-tab-content">
+                                <div class="who-we-tab-header-content">
+                                    <h3 class="text-anime-style-2">Land Is Not Just Property. It Is a Wealth Asset.</h3>
+                                    <p>In a market where uncertainty often surrounds property ownership, our focus is simple. We make land acquisition structured, transparent, and accessible for every client.</p>
+                                    <p>Our expertise spans land acquisition, infrastructure development, property marketing, and surveying. This allows us to support you at every stage, from your first enquiry to final allocation and ownership. You are not just buying land. You are entering a process designed to protect your investment and position you for long-term value.</p>
+                                    <p>Over the years, we have gained a deep understanding of what real estate means to the average Nigerian. It is not just about owning property. It is about creating stability, securing the future, and building something that can be passed on.</p>
+                                    <p>
+                                        That is why we focus on providing:
+                                        <ul>
+                                            <li>Verified properties in strategic locations</li>
+                                            <li>Clear and traceable documentation</li>
+                                            <li>Flexible payment structures</li>
+                                            <li>A guided, end-to-end ownership experience</li>
+                                        </ul>
+                                    </p>
                                 </div>
-                                <!-- About Us Item Content End -->
-
-                                <!-- About Us Item Image Start -->
-                                <div class="about-us-item-image">
-                                    <figure>
-                                        <img src="./assets/images/about-us-item-image-1.png" alt="">
-                                    </figure>
-                                </div>
-                                <!-- About Us Item Image End -->
                             </div>
-                            <!-- About Us Item End -->
-
-                            <!-- About Us Item Start -->
-                            <div class="about-us-item box-2">
-                                <!-- About Us Item Content Start -->
-                                <div class="about-us-item-content">
-                                    <h3>Modern Design Solution</h3>
-                                    <p>We stand by you at every stage of the construction journey</p>
-                                </div>
-                                <!-- About Us Item Content End -->
-
-                                <!-- About Us Item Image Start -->
-                                <div class="about-us-item-image">
-                                    <figure class="image-anime">
-                                        <img src="./assets/images/about-us-item-image-2.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <!-- About Us Item Image End -->
-                            </div>
-                            <!-- About Us Item End -->
                         </div>
-                        <!-- About Us Item List End -->
-
-                        <!-- About Counter List Start -->
-                        <div class="about-counter-item-list">
-                            <!-- About Counter Item Start -->
-                            <div class="about-counter-item">
-                                <h2><span class="counter">25</span>+</h2>
-                                <p>Real Estate Expertise</p>
-                            </div>
-                            <!-- About Counter Item End -->
-
-                            <!-- About Counter Item Start -->
-                            <div class="about-counter-item">
-                                <h2><span class="counter">50</span>+</h2>
-                                <p>Expert Team Members</p>
-                            </div>
-                            <!-- About Counter Item End -->
-
-                            <!-- About Counter Item Start -->
-                            <div class="about-counter-item">
-                                <h2><span class="counter">500</span>+</h2>
-                                <p>Handed-Over Project</p>
-                            </div>
-                            <!-- About Counter Item End -->
-                        </div>
-                        <!-- About Counter List End -->
+                        
                     </div>
-                    <!-- About Us Content Box End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- About US Section End -->
+    
 
-    <!-- Our Approach Section Start -->
     <div class="our-approach bg-section">
         <div class="container">
             <div class="row align-items-center">
@@ -167,7 +93,7 @@ include "./components/navbar.php";
                         <!-- Our Approach Image Box-1 Start -->
                         <div class="our-approach-image-box-1">
                             <!-- Our Approach Image Start -->
-                            <div class="our-approach-image">
+                            <div class="our-approach-images">
                                 <figure class="image-anime reveal">
                                     <img src="./assets/images/our-approach-image-1.jpg" alt="">
                                 </figure>
@@ -373,325 +299,6 @@ include "./components/navbar.php";
     </div>
     <!-- Our History Section End -->
 
-    <!-- Intro Video Start -->
-    <div class="intro-video bg-section dark-section parallaxie">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-7 col-md-9">
-                    <!-- Intro Video Content Start -->
-                    <div class="intro-video-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Watch Video</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Watch how we build <span>modern quality living spaces</span></h2>
-                        </div>
-                        <!-- Section Title End -->
-                    </div>
-                    <!-- Intro Video Content End -->
-                </div>
-
-                <div class="col-xl-5 col-md-3">
-                    <!-- Watch Video Circle Start -->
-                    <div class="watch-video-circle">
-                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                            <img src="./assets/images/watch-video-circle.png" alt="">
-                        </a> 
-                    </div>     
-                    <!-- Watch Video Circle End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Intro Video End -->
-
-    <!-- Our Team Section Start -->
-    <div class="our-team">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">Our Team</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Skilled professionals behind every <span>successful project</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp">
-                        <!-- Team Item Contnet Start -->
-                        <div class="team-item-content">
-                            <h2><a href="team-single.html">John Smith</a></h2>
-                            <p>Chief Architect</p>
-                        </div>
-                        <!-- Team Item Contnet End -->
-
-                        <!-- Team Item Image Start -->
-                        <div class="team-item-image">
-                            <figure>
-                                <img src="./assets/images/team-1.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- Team Item Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-xl-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Team Item Contnet Start -->
-                        <div class="team-item-content">
-                            <h2><a href="team-single.html">Albert Flores</a></h2>
-                            <p>Project Manager</p>
-                        </div>
-                        <!-- Team Item Contnet End -->
-
-                        <!-- Team Item Image Start -->
-                        <div class="team-item-image">
-                            <figure>
-                                <img src="./assets/images/team-2.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- Team Item Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-xl-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Team Item Contnet Start -->
-                        <div class="team-item-content">
-                            <h2><a href="team-single.html">Michael Brown</a></h2>
-                            <p>Civil Engineer</p>
-                        </div>
-                        <!-- Team Item Contnet End -->
-
-                        <!-- Team Item Image Start -->
-                        <div class="team-item-image">
-                            <figure>
-                                <img src="./assets/images/team-3.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- Team Item Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-xl-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- Team Item Contnet Start -->
-                        <div class="team-item-content">
-                            <h2><a href="team-single.html">Sarah Wilson</a></h2>
-                            <p>Project Manager</p>
-                        </div>
-                        <!-- Team Item Contnet End -->
-
-                        <!-- Team Item Image Start -->
-                        <div class="team-item-image">
-                            <figure>
-                                <img src="./assets/images/team-4.png" alt="">
-                            </figure>
-                        </div>
-                        <!-- Team Item Image End -->
-
-                        <!-- Team Social List Start -->
-                        <div class="team-social-list">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social List End -->
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Section Footer Text Start -->
-                    <div class="section-footer-text section-satisfy-img wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Satisfy Client ./assets/images Start -->
-                        <div class="satisfy-client-./assets/images">
-                            <div class="satisfy-client-image">
-                                <figure class="image-anime">
-                                    <img src="./assets/images/author-1.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="satisfy-client-image add-more">
-                                <img src="./assets/images/icon-phone-primary.svg" alt="">
-                            </div>
-                        </div>
-                        <!-- Satisfy Client ./assets/images End -->    
-                        <p>Complete Real Estate And Construction Solutions - <a href="contact.html">Get Free Quote</a></p>
-                    </div>
-                    <!-- Section Footer Text End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Team Section End -->
-
-    <!-- Cta Box Section Start -->
-    <div class="cta-box bg-section dark-section parallaxie">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5">
-                    <!-- Cta Box Content Start -->
-                    <div class="cta-box-content">
-                        <!-- Cta Box Content Header Start -->
-                        <div class="cta-box-content-header">
-                            <!-- Section Title Start -->
-                            <div class="section-title">
-                                <span class="section-sub-title wow fadeInUp">Quick Support</span>
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Quick support when you<span>need it most</span></h2>
-                            </div>
-                            <!-- Section Title End -->
-                        </div>
-                        <!-- Cta Box Content Header End -->
-
-                        <!-- Cta Box Contact Details Start -->
-                        <div class="cta-box-contact-details wow fadeInUp" data-wow-delay="0.2s">
-                            <!-- Cta Box Item Box Start -->
-                            <div class="cta-item-box-list">
-                                <!-- Cta Box Item Start -->
-                                <div class="cta-box-item">
-                                    <div class="icon-box">
-                                        <img src="./assets/images/icon-cta-box-item-1.svg" alt="">
-                                    </div>
-                                    <div class="cta-box-item-content">
-                                        <p>Call Us Now!</p>
-                                        <h3><a href="tel:123456789">+91 123 456 789</a></h3>
-                                    </div>
-                                </div>
-                                <!-- Cta Box Item End -->
-
-                                <!-- Cta Box Item Start -->
-                                <div class="cta-box-item">
-                                    <div class="icon-box">
-                                        <img src="./assets/images/icon-cta-box-item-2.svg" alt="">
-                                    </div>
-                                    <div class="cta-box-item-content">
-                                        <p>E-mail Us Now!</p>
-                                        <h3><a href="mailto:support@domainname.com">info@domainname.com</a></h3>
-                                    </div>
-                                </div>
-                                <!-- Cta Box Item End -->
-
-                                <!-- Cta Location Item Start -->
-                                <div class="cta-box-item">
-                                    <div class="icon-box">
-                                        <img src="./assets/images/icon-cta-box-item-3.svg" alt="">
-                                    </div>
-                                    <div class="cta-box-item-content">
-                                        <p>Our Location</p>
-                                        <h3>123 Main Street, City Name, Office 201</h3>
-                                    </div>
-                                </div>
-                                <!-- Cta Location Item End -->
-                            </div>
-                            <!-- Cta Box Item Box End -->                           
-                        </div>
-                        <!-- Cta Box Contact Details End -->
-                    </div>
-                    <!-- Cta Box Content End -->
-                </div>
-
-                <div class="col-xl-7">
-                    <!-- Cta Form Box Start -->
-                    <div class="cta-form-box">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Get In Toucht</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Send us a <span>message</span></h2>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Cta Contact Form Start -->
-                        <div class="cta-contact-form">
-                            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="row">
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-            
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="email" name ="email" class="form-control" id="email" placeholder="Email Address" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-            
-                                    <div class="form-group col-md-12 mb-5">
-                                        <textarea name="message" class="form-control" id="message" rows="5" placeholder="Write Message"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-            
-                                    <div class="col-lg-12">
-                                        <div class="cta-contact-form-btn">
-                                            <button type="submit" class="btn-default"><span>Send Message</span></button>
-                                            <div id="msgSubmit" class="h3 hidden"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- Cta Contact Form End -->
-                    </div>
-                    <!-- Cta Form Box End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Cta Box Section End -->
 
     <!-- Our Process Section Start -->
     <div class="our-process">
@@ -1103,50 +710,38 @@ include "./components/navbar.php";
                                             <img src="./assets/images/company-supports-logo-3.svg" alt="">
                                         </div>
                                     </div>
-                                    <!-- Comapany Support Logo End -->
-    
-                                    <!-- Company Support Logo Start -->
+                                    
                                     <div class="swiper-slide">
                                         <div class="company-supports-logo">
                                             <img src="./assets/images/company-supports-logo-4.svg" alt="">
                                         </div>
                                     </div>
-                                    <!-- Comapany Support Logo End -->
-    
-                                    <!-- Company Support Logo Start -->
+                                    
                                     <div class="swiper-slide">
                                         <div class="company-supports-logo">
                                             <img src="./assets/images/company-supports-logo-5.svg" alt="">
                                         </div>
                                     </div>
-                                    <!-- Comapany Support Logo End -->
-    
-                                    <!-- Company Support Logo Start -->
+                                    
                                     <div class="swiper-slide">
                                         <div class="company-supports-logo">
                                             <img src="./assets/images/company-supports-logo-1.svg" alt="">
                                         </div>
                                     </div>
-                                    <!-- Comapany Support Logo End -->
-
-                                    <!-- Company Support Logo Start -->
+                                    
                                     <div class="swiper-slide">
                                         <div class="company-supports-logo">
                                             <img src="./assets/images/company-supports-logo-2.svg" alt="">
                                         </div>
                                     </div>
-                                    <!-- Comapany Support Logo End -->
                                 </div>
                             </div>
                         </div>
-                        <!-- Comapany Support Slider End -->
                     </div>
-                    <!-- Comapany Support Slider End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Testimonials Section End-->
 
 
 <?php 
