@@ -59,7 +59,7 @@ include "./components/navbar.php";
                             <h2>Dorcas Obute</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                General Manager
+                                General Manager Brit Holdings
                                 <span class="dot"></span>
                             </p>
                         </div>
@@ -80,7 +80,7 @@ include "./components/navbar.php";
                             <h2>Daniel Onwuzuka</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                NSM
+                                National Sales Manager
                                 <span class="dot"></span>
                             </p>
                         </div>
@@ -122,7 +122,7 @@ include "./components/navbar.php";
                             <h2>Chukwu Martins</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                Logistics/Transport
+                                Brit Transport
                                 <span class="dot"></span>
                             </p>
                         </div>
@@ -143,7 +143,7 @@ include "./components/navbar.php";
                             <h2>Arowele Josephine</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                CCMS
+                                Corporate Strategy
                                 <span class="dot"></span>
                             </p>
                         </div>

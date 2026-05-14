@@ -52,7 +52,7 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         
                         <div class="hero-counter-footer wow fadeInUp" data-wow-delay="0.2s">
                             <div class="hero-btn">
-                                <a href="consultation" class="btn-default btn-highlighted">Book Free Consultation</a>
+                                <a href="contact" class="btn-default btn-highlighted">Book Free Consultation</a>
                             </div>
                         </div>
                     </div>
