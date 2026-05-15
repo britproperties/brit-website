@@ -21,12 +21,12 @@
 </head>
 <body>
 
-	<div class="preloader">
+	<!-- <div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
 			<div id="loading-icon"><img src="./assets/images/loader.svg" alt=""></div>
 		</div>
-	</div>
+	</div> -->
 
     <div class="error-page pt-5">
         <div class="container">
