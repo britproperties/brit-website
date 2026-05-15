@@ -251,7 +251,7 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </div>
 
 
-    <div class="intro-video bg-section dark-section parallaxie" style="margin-bottom: 100px !important;">
+    <div class="intro-video bg-section dark-section parallaxie" style="margin-bottom: 80px !important;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-7 col-md-9">
