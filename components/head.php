@@ -36,6 +36,16 @@ require_once "./config/db.php";
 	<link rel="stylesheet" href="./assets/css/magnific-popup.css">
 	<link rel="stylesheet" href="./assets/css/mousecursor.css">
 	<link href="./assets/css/custom.css" rel="stylesheet" media="screen">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0EBGE0E9LF"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-0EBGE0E9LF');
+	</script>
 </head>
 <body>
 
