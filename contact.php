@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Contact Brit Properties — Book a Free Consultation';
+$page_description = 'Get in touch with Brit Properties. Book a free consultation, visit our Lagos office, or call us to start your land ownership journey in Nigeria.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

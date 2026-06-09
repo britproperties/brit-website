@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Meet the Brit Properties Team';
+$page_description = 'Meet the people behind Brit Properties — the team driving transparent, structured real estate and land ownership across Nigeria.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Frequently Asked Questions | Brit Properties';
+$page_description = 'Answers to common questions about buying land, payment plans, documentation, allocation, and ownership with Brit Properties in Nigeria.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

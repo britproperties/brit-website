@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Gallery — Brit Properties Projects & Events';
+$page_description = 'Explore photos from Brit Properties estates, allocations, and community events including the Brit Spelling Bee Competition.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

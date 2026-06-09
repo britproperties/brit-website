@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Verified Properties & Land for Sale in Nigeria | Brit Properties';
+$page_description = 'Browse verified, available land and properties across Nigeria with flexible payment plans. Invest in high-growth locations with Brit Properties.';
 include "./components/head.php";
 include "./components/navbar.php";
 

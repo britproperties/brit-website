@@ -1,5 +1,26 @@
 <?php
 require_once "./config/db.php";
+
+// ─── SEO: per-page metadata with sensible site-wide defaults ─────────────────
+$site_url = 'https://www.britproperties.ng';
+
+$default_title       = 'Brit Properties&trade; :: Most Affordable Real Estate Company in Nigeria';
+$default_description = 'BRIT Properties is a trusted Nigerian real estate firm specializing in land acquisition, property development, surveying, and estate services.';
+$default_keywords    = 'BRIT Properties, real estate Nigeria, land acquisition, property development, estate agency, surveying services, property investment, land for sale Nigeria, infrastructure development, wealth creation, property marketing, real estate investment Nigeria, trusted real estate company, real estate services Nigeria, property development Nigeria';
+$default_og_image    = 'https://res.cloudinary.com/dhowyyjht/image/upload/v1775808044/brit-logo_wxccdp.png';
+
+$page_title       = $page_title       ?? $default_title;
+$page_description  = $page_description ?? $default_description;
+$page_keywords    = $page_keywords    ?? $default_keywords;
+$og_image         = $og_image         ?? $default_og_image;
+
+// Build a per-page canonical URL from the current path (strips query string and
+// the local /brit-website dev sub-folder) so each page self-canonicalises.
+$req_path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$req_path = preg_replace('#^/brit-website#', '', $req_path);
+$req_path = preg_replace('#\.php$#', '', $req_path);
+if ($req_path === '' || $req_path === '/index') { $req_path = '/'; }
+$canonical = $canonical ?? rtrim($site_url, '/') . $req_path;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,23 +28,55 @@ require_once "./config/db.php";
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="BRIT Properties is a trusted Nigerian real estate firm specializing in land acquisition, property development, surveying, and estate services.">
-    <meta name="keywords" content="BRIT Properties, real estate Nigeria, land acquisition, property development, estate agency, surveying services, property investment, land for sale Nigeria, infrastructure development, wealth creation, property marketing, real estate investment Nigeria, trusted real estate company, real estate services Nigeria, property development Nigeria">
+	<meta name="description" content="<?php echo htmlspecialchars(strip_tags($page_description), ENT_QUOTES); ?>">
+    <meta name="keywords" content="<?php echo htmlspecialchars($page_keywords, ENT_QUOTES); ?>">
     <meta name="author" content="Brit Properties">
     <meta name="robots" content="index, follow" />
 
-    <meta property="og:title" content="Brit Properties&trade; :: Most Affordable Real Estate Company in Nigeria" />
-    <meta property="og:description" content="We specialize in land acquisition, property development, surveying, and estate agency services. Build wealth and secure your future with BRIT Properties." />
+    <meta property="og:site_name" content="Brit Properties" />
+    <meta property="og:title" content="<?php echo $page_title; ?>" />
+    <meta property="og:description" content="<?php echo htmlspecialchars(strip_tags($page_description), ENT_QUOTES); ?>" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.britproperties.ng" />
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonical, ENT_QUOTES); ?>" />
+    <meta property="og:image" content="<?php echo htmlspecialchars($og_image, ENT_QUOTES); ?>" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Brit Properties&trade; :: Most Affordable Real Estate Company in Nigeria" />
-    <meta name="twitter:description" content="Transform your future with BRIT Properties—leaders in land acquisition, property development, and real estate investment in Nigeria." />
+    <meta name="twitter:title" content="<?php echo $page_title; ?>" />
+    <meta name="twitter:description" content="<?php echo htmlspecialchars(strip_tags($page_description), ENT_QUOTES); ?>" />
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image, ENT_QUOTES); ?>" />
 
-    <link rel="canonical" href="https://www.britproperties.ng" />
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical, ENT_QUOTES); ?>" />
 
-    <title>Brit Properties&trade; :: Most Affordable Real Estate Company in Nigeria</title>
+    <title><?php echo $page_title; ?></title>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Brit Properties Nigeria Ltd",
+      "url": "https://www.britproperties.ng",
+      "logo": "https://res.cloudinary.com/dhowyyjht/image/upload/v1775808044/brit-logo_wxccdp.png",
+      "image": "https://res.cloudinary.com/dhowyyjht/image/upload/v1775808044/brit-logo_wxccdp.png",
+      "description": "BRIT Properties is a trusted Nigerian real estate firm specializing in land acquisition, property development, surveying, and estate services.",
+      "telephone": "+234 916 444 9990",
+      "email": "hello@britproperties.ng",
+      "areaServed": "NG",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 7b, Budo farm layout, beside AP filling station, Ajiwe, Abraham Adesanya, Ajah",
+        "addressLocality": "Lagos",
+        "addressRegion": "Lagos",
+        "addressCountry": "NG"
+      },
+      "sameAs": [
+        "https://www.instagram.com/britproperties.ng/",
+        "https://www.facebook.com/britpropertyng/",
+        "https://www.linkedin.com/company/brit-properties-nigeria-ltd/",
+        "https://x.com/BritProperties",
+        "https://www.youtube.com/@britpropertiesng"
+      ]
+    }
+    </script>
 
 	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/brit-favicon.png">
 

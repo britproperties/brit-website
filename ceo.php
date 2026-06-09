@@ -1,4 +1,6 @@
 <?php
+$page_title = "CEO's Desk — Brit Properties";
+$page_description = 'A message from the CEO of Brit Properties on our vision for accessible, transparent, and secure land ownership in Nigeria.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

@@ -51,40 +51,14 @@ if ($env === 'development') {
     error_reporting(E_ALL);
 }
 
-// Database Settings.
-// Credentials can be supplied (in order of precedence) by:
-//   1. config/credentials.php — an untracked file returning an array (see credentials.sample.php)
-//   2. environment variables DB_HOST / DB_NAME / DB_USER / DB_PASS
-//   3. the built-in defaults below (kept so existing deployments keep working)
-$defaults = [
-    'development' => [
-        'host' => 'localhost',
-        'name' => 'brit_app',
-        'user' => 'root',
-        'pass' => '',
-    ],
-    'production' => [
-        'host' => 'localhost',
-        'name' => 'britproperty_app',
-        'user' => 'britproperty_app',
-        'pass' => 'xv@(xS*#UB@f',
-    ],
-];
-
-$config = $defaults[$env];
-
-if (is_file(__DIR__ . '/credentials.php')) {
-    $fileCreds = require __DIR__ . '/credentials.php';
-    if (isset($fileCreds[$env]) && is_array($fileCreds[$env])) {
-        $config = array_merge($config, $fileCreds[$env]);
-    }
-}
-
+// Database Settings — credentials come from .env (see .env.example).
+// Safe local-development defaults are used only when a variable is not set,
+// so production must define DB_HOST / DB_NAME / DB_USER / DB_PASS in its .env.
 $config = [
-    'host' => getenv('DB_HOST') ?: $config['host'],
-    'name' => getenv('DB_NAME') ?: $config['name'],
-    'user' => getenv('DB_USER') ?: $config['user'],
-    'pass' => (getenv('DB_PASS') !== false) ? getenv('DB_PASS') : $config['pass'],
+    'host' => getenv('DB_HOST') ?: 'localhost',
+    'name' => getenv('DB_NAME') ?: 'brit_app',
+    'user' => getenv('DB_USER') ?: 'root',
+    'pass' => (getenv('DB_PASS') !== false) ? getenv('DB_PASS') : '',
 ];
 
 // PDO Configuration

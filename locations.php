@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Our Locations | Brit Properties Nigeria';
+$page_description = 'Discover Brit Properties estate locations across Nigeria — prime, verified land in high-growth areas ready for ownership and investment.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

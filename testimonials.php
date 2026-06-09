@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Client Testimonials | Brit Properties';
+$page_description = 'Hear from Brit Properties clients about their experience buying verified land and building wealth through secure real estate in Nigeria.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

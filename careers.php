@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Careers at Brit Properties — Join Our Team';
+$page_description = 'Build your career with Brit Properties. Explore open roles and join a team transforming real estate and land ownership in Nigeria.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

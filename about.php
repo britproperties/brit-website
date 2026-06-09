@@ -1,4 +1,6 @@
 <?php
+$page_title = 'About Brit Properties — Trusted Land & Real Estate in Nigeria';
+$page_description = 'Learn how Brit Properties makes land ownership in Nigeria structured, transparent, and accessible — from acquisition and surveying to development and allocation.';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>

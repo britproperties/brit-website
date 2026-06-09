@@ -1,4 +1,8 @@
 <?php
+$page_title = 'Brit Spelling Bee Competition — Register Your Child | Brit Properties';
+$page_description = 'Register your child (ages 8–12) for the Brit Spelling Bee Competition. Free entry, exciting prizes, and a celebration of young spelling talent across Nigeria.';
+$page_keywords = 'Brit Spelling Bee, spelling bee Nigeria, children spelling competition, Brit Properties spelling bee, kids competition Nigeria, spelling bee registration';
+$og_image = 'https://www.britproperties.ng/assets/images/spelling-bee/62.jpeg';
 include "./components/head.php";
 include "./components/navbar.php";
 ?>
