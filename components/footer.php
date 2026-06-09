@@ -94,7 +94,7 @@
     <script src="./assets/js/ScrollTrigger.min.js"></script>
     <script src="./assets/js/jquery.mb.YTPlayer.min.js"></script>
     <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/function.js"></script>
+    <script src="./assets/js/function.js?v=<?php echo @filemtime(__DIR__ . '/../assets/js/function.js') ?: time(); ?>"></script>
 
     <!-- Smartsupp Live Chat script -->
     <script type="text/javascript">

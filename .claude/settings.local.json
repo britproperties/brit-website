@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -i '$_\\\\|$id\\\\|\\\\.')",
+      "Bash(awk 'NR>=380 && NR<=445{printf \"%d\\\\t%s\\\\n\", NR, $0}' assets/js/function.js)",
+      "Bash(awk 'NR<=12{printf \"%d\\\\t%s\\\\n\", NR, $0}' assets/js/function.js)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' __TRACKED_VAR__/form-process.php -d 'fname=Test&lname=User&email=test@example.com&phone=08010000000&message=Hello from analysis')",
+      "Bash(curl -s __TRACKED_VAR__/form-process.php -d 'fname=Test&lname=User&email=test@example.com&phone=08010000000&message=Hello again')",
+      "Bash(curl -s -w ' [%{http_code}]\\\\n' __TRACKED_VAR__/form-process.php -d 'fname=A&lname=B&email=notanemail&phone=1')",
+      "Bash(curl -s -w ' [%{http_code}]\\\\n' __TRACKED_VAR__/spelling-bee-process.php --data 'fname=Kid&lname=Smart&gender=Female&dob=2014-05-01&school=Bright Academy&grade=Grade 5&guardian=Jane Smart&phone=08020000000&email=jane@example.com&address=12 Lekki Rd&consent=yes&consent_media_capture=yes')",
+      "Bash(curl -s -w ' [%{http_code}]\\\\n' __TRACKED_VAR__/spelling-bee-process.php --data 'fname=Kid&lname=Smart&gender=Female&dob=2014-05-01&school=X&grade=5&guardian=Jane&phone=080&email=jane@example.com&address=12 Rd')",
+      "Bash(cd /Applications/XAMPP/xamppfiles/htdocs *)",
+      "Bash(ls -la brit-user/auth)",
+      "Bash(ls -la brit-erp/auth)",
+      "Bash(ls -la dillion/auth)",
+      "Bash(ls -la brit-user/utils)",
+      "Bash(cat brit-user/utils/mailer.php)",
+      "Bash(sed -n '1,30p' brit-user/config/db.php)",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/php -m)",
+      "Bash(grep -n 'sendMail\\\\|$html\\\\|email_template\\\\|emailTemplate\\\\|<html\\\\|<table\\\\|<!DOCTYPE' brit-user/auth/signup_auth.php)",
+      "Bash(command -v node)",
+      "Bash(node --check assets/js/function.js)",
+      "Bash(curl -s -o /dev/null -w 'spelling-bee -> %{http_code}\\\\n' __TRACKED_VAR__/spelling-bee)",
+      "Bash(curl -s __TRACKED_VAR__/spelling-bee)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp"
+    ]
+  }
+}

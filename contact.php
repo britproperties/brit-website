@@ -12,7 +12,7 @@ include "./components/navbar.php";
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="./">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">contact Us</a></li>
+                                <li class="breadcrumb-item"><a href="#">Contact Us</a></li>
                             </ol>
                         </nav>
                     </div>

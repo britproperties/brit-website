@@ -1,0 +1,7 @@
+# Secrets — never commit real credentials
+config/credentials.php
+.env
+
+# OS / editor cruft
+.DS_Store
+**/.DS_Store

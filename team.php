@@ -122,7 +122,7 @@ include "./components/navbar.php";
                             <h2>Chukwu Martins</h2>
                             <p class="designation text-white mb-0">
                                 <span class="dot"></span>
-                                Brit Transport
+                                Brit Academy
                                 <span class="dot"></span>
                             </p>
                         </div>

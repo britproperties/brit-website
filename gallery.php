@@ -126,6 +126,22 @@ include "./components/navbar.php";
                     </div>
                 </div>
 
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="spelling-bee-one">
+                            <div class="project-item-image">
+                                <figure>
+                                    <img src="./assets/images/spelling-bee/53.jpeg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                </figure>
+                            </div>
+
+                            <div class="project-item-content text-center">
+                                <h2>Brit Spelling Bee Competition</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

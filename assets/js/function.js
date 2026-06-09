@@ -407,21 +407,21 @@
 		/* Ajax call to submit form */
 		$.ajax({
 			type: "POST",
-			url: "form-process.php",
+			url: "auth/contact_auth.php",
 			data: $contactform.serialize(),
-			success : function(text){
-				if (text === "success"){
-					formSuccess();
+			dataType: "json",
+			success : function(res){
+				if (res && res.success){
+					$contactform[0].reset();
+					submitMSG(true, res.message || "Message sent successfully!");
 				} else {
-					submitMSG(false,text);
+					submitMSG(false, (res && res.message) || "Something went wrong. Please try again later.");
 				}
+			},
+			error : function(){
+				submitMSG(false, "Something went wrong. Please try again later.");
 			}
 		});
-	}
-
-	function formSuccess(){
-		$contactform[0].reset();
-		submitMSG(true, "Message Sent Successfully!")
 	}
 
 	function submitMSG(valid, msg){
@@ -434,7 +434,39 @@
 	}
 	/* Contact form validation end */
 
-	/* Animated Wow Js */	
+	/* Spelling Bee registration validation */
+	var $spellingbeeform = $("#spellingBeeForm");
+	$spellingbeeform.validator({focus: false}).on("submit", function (event) {
+		if (!event.isDefaultPrevented()) {
+			event.preventDefault();
+			submitSpellingBeeForm();
+		}
+	});
+
+	function submitSpellingBeeForm(){
+		$.ajax({
+			type: "POST",
+			url: "auth/spelling_bee_auth.php",
+			data: $spellingbeeform.serialize(),
+			dataType: "json",
+			success : function(res){
+				if (res && res.success){
+					var email = $("#email", $spellingbeeform).val() || "";
+					$("#regSuccessEmail").text(email);
+					$spellingbeeform.closest(".col-xl-8.mx-auto").hide();
+					$("#registrationSuccess").show();
+				} else {
+					submitMSG(false, (res && res.message) || "Something went wrong. Please try again later.");
+				}
+			},
+			error : function(){
+				submitMSG(false, "Something went wrong. Please try again later.");
+			}
+		});
+	}
+	/* Spelling Bee registration validation end */
+
+	/* Animated Wow Js */
 	new WOW().init();
 
 	/* Popup Video */
