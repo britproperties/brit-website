@@ -22,7 +22,8 @@
       "Bash(node --check assets/js/function.js)",
       "Bash(curl -s -o /dev/null -w 'spelling-bee -> %{http_code}\\\\n' __TRACKED_VAR__/spelling-bee)",
       "Bash(curl -s __TRACKED_VAR__/spelling-bee)",
-      "mcp__Claude_in_Chrome__tabs_context_mcp"
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(grep -vE \"^[0-9]+\\\\.\\(jpe?g|png\\)$\")"
     ]
   }
 }

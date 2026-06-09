@@ -7,6 +7,12 @@ include "./components/head.php";
 include "./components/navbar.php";
 ?>
 
+    <style>
+        #spellingBeeForm .form-check-input {
+            border: 1px solid #333333;
+        }
+    </style>
+
     <div class="page-header bg-section parallaxie" style="background-image: url('./assets/images/spelling-bee/62.jpeg');background-position: top center;">
         <div class="container">
             <div class="row">

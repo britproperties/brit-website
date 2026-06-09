@@ -132,8 +132,8 @@ $applicantContent =
 
 sendMail(
     $email,
-    'Brit Spelling Bee — Registration Confirmed (No. ' . $regNumber . ')',
-    emailTemplate('Registration Confirmed', $applicantContent)
+    'Brit Spelling Bee — Registration Successful (No. ' . $regNumber . ')',
+    emailTemplate('Registration Successful', $applicantContent)
 );
 
 j(true, 'Registration submitted successfully! Your registration number is ' . $regNumber . '.', ['reg_number' => $regNumber]);

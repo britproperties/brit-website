@@ -43,6 +43,7 @@
                             <li class="nav-item"><a class="nav-link" href="gallery">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="spelling-bee">Spelling Bee</a></li>
                             <li class="nav-item"><a class="nav-link" href="faqs">FAQs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact">Contact us</a></li>
                         </ul>
                     </div>
