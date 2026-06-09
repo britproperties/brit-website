@@ -136,23 +136,4 @@ sendMail(
     emailTemplate('Registration Confirmed', $applicantContent)
 );
 
-// ── Internal notification to the team (default template) ─────────────────────
-$teamContent =
-    "<p style='font-size:14px;margin:0 0 15px;'>A new candidate has registered for the Brit Spelling Bee Competition.</p>" .
-    "<table style='font-size:14px;margin:0 0 10px;'>" .
-        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Reg. Number</td><td><strong>" . htmlspecialchars($regNumber) . "</strong></td></tr>" .
-        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Candidate</td><td>" . htmlspecialchars($fname . ' ' . $lname) . " (" . htmlspecialchars($gender) . ", Age " . htmlspecialchars((string)$age) . ")</td></tr>" .
-        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>School</td><td>" . htmlspecialchars($school) . " — " . htmlspecialchars($grade) . "</td></tr>" .
-        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Guardian</td><td>" . htmlspecialchars($guardian) . "</td></tr>" .
-        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Phone</td><td>" . htmlspecialchars($phone) . "</td></tr>" .
-        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Email</td><td>" . htmlspecialchars($email) . "</td></tr>" .
-        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Address</td><td>" . htmlspecialchars($address) . "</td></tr>" .
-    "</table>";
-
-sendMail(
-    'hello@britproperties.ng',
-    "New Spelling Bee registration: {$fname} {$lname} (No. {$regNumber})",
-    emailTemplate('New Spelling Bee Registration', $teamContent)
-);
-
 j(true, 'Registration submitted successfully! Your registration number is ' . $regNumber . '.', ['reg_number' => $regNumber]);
