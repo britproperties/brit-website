@@ -413,7 +413,8 @@
 			success : function(res){
 				if (res && res.success){
 					$contactform[0].reset();
-					submitMSG(true, res.message || "Message sent successfully!");
+					$contactform.closest(".contact-form").hide();
+					$("#contactSuccess").show();
 				} else {
 					submitMSG(false, (res && res.message) || "Something went wrong. Please try again later.");
 				}

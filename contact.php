@@ -100,6 +100,12 @@ include "./components/navbar.php";
                             </div>
                         </form>
                     </div>
+
+                    <div class="contact-form text-center" id="contactSuccess" style="display: none;">
+                        <img src="./assets/images/email.svg" alt="">
+                        <h4 class="mt-3">Message Sent</h4>
+                        <p>Thank you for reaching out. Our team will get back to you shortly.</p>
+                    </div>
                 </div>
             </div>
         </div>
