@@ -96,18 +96,5 @@
     <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/function.js?v=<?php echo @filemtime(__DIR__ . '/../assets/js/function.js') ?: time(); ?>"></script>
 
-    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript">
-    var _smartsupp = _smartsupp || {};
-    _smartsupp.key = 'cbb9c6ae678d64d964e254aa0ef17a6a1e15d6ce';
-    window.smartsupp||(function(d) {
-    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-    c.type='text/javascript';c.charset='utf-8';c.async=true;
-    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-    })(document);
-    </script>
-    <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
-
 </body>
 </html>
