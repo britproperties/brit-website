@@ -36,7 +36,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
         <div class="sb-modal-box">
             <button type="button" class="sb-modal-close" id="spellingBeeModalClose" aria-label="Close">&times;</button>
             <a href="spelling-bee" aria-label="Register for the Brit Spelling Bee">
-                <img src="./assets/images/spelling-bee-flyer.jpeg" alt="Brit Spelling Bee Competition flyer">
+                <img loading="lazy" src="./assets/images/spelling-bee-flyer.jpeg" alt="Brit Spelling Bee Competition flyer">
             </a>
             <div class="sb-modal-cta">
                 <a href="spelling-bee" class="btn-default">Register Now</a>
@@ -120,7 +120,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                     <div class="about-us-image-box wow fadeInUp">
                         <div class="about-us-image">
                             <figure class="image-anime">
-                                <img src="./assets/images/hme_abt.jpg" alt="" style="width:100%; height:100%; object-fit:cover; object-position:top;">
+                                <img loading="lazy" src="./assets/images/hme_abt.jpg" alt="" style="width:100%; height:100%; object-fit:cover; object-position:top;">
                             </figure>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                         <div class="project-item-image">
                             <a href="property-details?id=<?php echo $property['property_id']; ?>" data-cursor-text="View">
                                 <figure>
-                                    <img 
+                                    <img loading="lazy" 
                                         src="<?php echo htmlspecialchars($property['property_image']); ?>" 
                                         alt="<?php echo htmlspecialchars($property['title']); ?>"
                                         class="img-fluid"
@@ -216,7 +216,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                         <div class="our-fact-image-box-1 wow fadeInUp">
                             <div class="our-fact-image">
                                 <figure class="image-anime">
-                                    <img src="./assets/images/hme-img2.jpg" alt="">
+                                    <img loading="lazy" src="./assets/images/hme-img2.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -224,7 +224,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                         <div class="our-fact-image-box-2">
                             <div class="our-fact-image">
                                 <figure class="image-anime reveal">
-                                    <img src="./assets/images/hme-img1.jpg" alt="">
+                                    <img loading="lazy" src="./assets/images/hme-img1.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -241,7 +241,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                         <div class="who-we-are-body-box-metal wow fadeInUp" data-wow-delay="0.4s">
                             <div class="who-we-are-body-item-metal">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-who-we-are-1-metal.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-who-we-are-1-metal.svg" alt="">
                                 </div>
                                 <div class="who-we-are-body-content-metal">
                                     <h3>Affordable Entry, Long-Term Value</h3>
@@ -250,7 +250,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                             
                             <div class="who-we-are-body-item-metal">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-who-we-are-2-metal.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-who-we-are-2-metal.svg" alt="">
                                 </div>
                                 <div class="who-we-are-body-content-metal">
                                     <h3>Structured and Reliable Process</h3>
@@ -259,7 +259,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                             
                             <div class="who-we-are-body-item-metal">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-who-we-are-3-metal.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-who-we-are-3-metal.svg" alt="">
                                 </div>
                                 <div class="who-we-are-body-content-metal">
                                     <h3>Transparent Transactions</h3>
@@ -293,7 +293,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                 <div class="col-xl-5 col-md-3">
                     <div class="watch-video-circle">
                         <a href="https://www.youtube.com/watch?v=ZY1Y2m1h8u8" class="popup-video" data-cursor-text="Play">
-                            <img src="./assets/images/watch-video-circle-new.png" alt="">
+                            <img loading="lazy" src="./assets/images/watch-video-circle-new.png" alt="">
                         </a> 
                     </div>
                 </div>
@@ -329,7 +329,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
                         <div class="post-featured-image">
                             <a href="<?php echo $url; ?>" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
+                                    <img loading="lazy" src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
                                 </figure>
                             </a>
                         </div>

@@ -4,10 +4,16 @@
 	var $window = $(window); 
 	var $body = $('body'); 
 
-	/* Preloader Effect */
-	$window.on('load', function(){
-		$(".preloader").fadeOut(600);
-	});
+	/* Preloader Effect — hide on full load, but never hang on slow assets
+	   (large images / hero video). Caps the wait so the page feels fast. */
+	var preloaderHidden = false;
+	function hidePreloader(){
+		if (preloaderHidden) return;
+		preloaderHidden = true;
+		$(".preloader").fadeOut(400);
+	}
+	$window.on('load', hidePreloader);
+	$(function(){ setTimeout(hidePreloader, 800); }); // fallback once DOM is ready
 
 	/* Sticky Header */	
 	if($('.active-sticky-header').length){

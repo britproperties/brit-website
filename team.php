@@ -51,7 +51,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4315.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4315.jpg"
                                     alt="Dorcas Obute"
                                     class="img-fluid">
                             </figure>
@@ -72,7 +72,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4197.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4197.jpg"
                                     alt="Daniel Onwuzuka"
                                     class="img-fluid">
                             </figure>
@@ -93,7 +93,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4091.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4091.jpg"
                                     alt="Obehioye Vera"
                                     class="img-fluid">
                             </figure>
@@ -114,7 +114,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4208.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4208.jpg"
                                     alt="Chukwu Martins"
                                     class="img-fluid">
                             </figure>
@@ -135,7 +135,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4106.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4106.jpg"
                                     alt="Arowele Josephine"
                                     class="img-fluid">
                             </figure>
@@ -156,7 +156,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4134.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4134.jpg"
                                     alt="Oladele Oladimeji"
                                     class="img-fluid">
                             </figure>
@@ -177,7 +177,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4171.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4171.jpg"
                                     alt="Oyasanmi Susan"
                                     class="img-fluid">
                             </figure>
@@ -198,7 +198,7 @@ include "./components/navbar.php";
                     <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="project-item-image">
                             <figure>
-                                <img src="./assets/images/team/CHZ_4159.jpg"
+                                <img loading="lazy" src="./assets/images/team/CHZ_4159.jpg"
                                     alt="Ayodele Oluwabukunmi"
                                     class="img-fluid">
                             </figure>

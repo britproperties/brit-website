@@ -97,7 +97,7 @@ $heroImage = htmlspecialchars($images[0]);
                             <div class="photo-gallery wow fadeInUp">
                                 <a href="<?php echo htmlspecialchars($img); ?>" data-cursor-text="View">
                                     <figure class="image-anime">
-                                        <img src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo htmlspecialchars($property['title']); ?>">
+                                        <img loading="lazy" src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo htmlspecialchars($property['title']); ?>">
                                     </figure>
                                 </a>
                             </div>

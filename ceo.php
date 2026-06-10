@@ -50,7 +50,7 @@ include "./components/navbar.php";
                         <div class="sidebar-cta-box wow fadeInUp" data-wow-delay="0.25s">
                             <div class="sidebar-cta-image">
                                 <figure>
-                                    <img src="./assets/images/team/CHZ_4386.jpg" alt="">
+                                    <img loading="lazy" src="./assets/images/team/CHZ_4386.jpg" alt="">
                                 </figure>
                             </div>
 
@@ -86,7 +86,7 @@ include "./components/navbar.php";
                                 
                                 <div class="member-experience-image">
                                     <figure class="image-anime reveal">
-                                        <img src="./assets/images/team/CHZ_4354.jpg" alt="">
+                                        <img loading="lazy" src="./assets/images/team/CHZ_4354.jpg" alt="">
                                     </figure>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ include "./components/navbar.php";
                             <div class="member-experience-image-content">
                                 <div class="member-experience-image">
                                     <figure class="image-anime reveal">
-                                        <img src="./assets/images/team/CHZ_4393.jpg" alt="">
+                                        <img loading="lazy" src="./assets/images/team/CHZ_4393.jpg" alt="">
                                     </figure>
                                 </div>
 

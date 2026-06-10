@@ -32,7 +32,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/1.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/1.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/1.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -42,7 +42,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/2.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/2.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/2.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -52,7 +52,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/3.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/3.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/3.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -62,7 +62,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/4.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/4.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/4.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -72,7 +72,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/5.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/5.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/5.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -82,7 +82,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/6.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/6.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/6.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -92,7 +92,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/7.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/7.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/7.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -102,7 +102,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/8.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/8.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/8.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -112,7 +112,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/9.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/9.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/9.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -122,7 +122,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/10.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/10.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/10.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -132,7 +132,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/11.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/11.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/11.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -142,7 +142,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/12.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/12.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/12.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -152,7 +152,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/13.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/13.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/13.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -162,7 +162,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/14.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/14.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/14.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -172,7 +172,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/15.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/15.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/15.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -182,7 +182,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/16.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/16.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/16.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -192,7 +192,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/17.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/17.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/17.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -202,7 +202,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/18.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/18.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/18.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -212,7 +212,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/19.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/19.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/19.jpg" alt="">
                             </figure>
                         </a>
                     </div>
@@ -222,7 +222,7 @@ include "./components/navbar.php";
                     <div class="photo-gallery wow fadeInUp">
                         <a href="./assets/images/ima-city-allocation/20.jpg" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="./assets/images/ima-city-allocation/20.jpg" alt="">
+                                <img loading="lazy" src="./assets/images/ima-city-allocation/20.jpg" alt="">
                             </figure>
                         </a>
                     </div>

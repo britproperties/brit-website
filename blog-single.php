@@ -103,7 +103,7 @@ $shareText = rawurlencode($post['title']);
                 <div class="col-lg-12">
                     <div class="post-image">
                         <figure class="image-anime reveal">
-                            <img src="<?php echo htmlspecialchars($heroImg); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
+                            <img loading="lazy" src="<?php echo htmlspecialchars($heroImg); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
                         </figure>
                     </div>
 
@@ -158,7 +158,7 @@ $shareText = rawurlencode($post['title']);
                                 <div class="post-item wow fadeInUp">
                                     <div class="post-featured-image">
                                         <a href="<?php echo blog_url($r['slug']); ?>" data-cursor-text="View">
-                                            <figure class="image-anime"><img src="<?php echo htmlspecialchars($rimg); ?>" alt="<?php echo htmlspecialchars($r['title']); ?>"></figure>
+                                            <figure class="image-anime"><img loading="lazy" src="<?php echo htmlspecialchars($rimg); ?>" alt="<?php echo htmlspecialchars($r['title']); ?>"></figure>
                                         </a>
                                     </div>
                                     <div class="post-item-body">
