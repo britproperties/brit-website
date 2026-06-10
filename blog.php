@@ -90,7 +90,7 @@ include "./components/navbar.php";
             <?php if (empty($posts)): ?>
                 <div class="row"><div class="col-lg-12"><div class="blog-empty">
                     <p>No articles found<?php echo $search ? ' for “' . htmlspecialchars($search) . '”' : ''; ?>.</p>
-                    <a href="blog" class="btn-default">Back to all posts</a>
+                    <a href="./" class="btn-default">Back to home</a>
                 </div></div></div>
             <?php else: ?>
             <div class="row">

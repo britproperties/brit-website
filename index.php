@@ -14,6 +14,9 @@ $stmt->execute();
 
 $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+require_once "./components/blog-helpers.php";
+$latestPosts = blog_get_posts($pdo, 3, 0);
+
 ?>
 
     <!-- Spelling Bee Flyer Modal -->
@@ -297,6 +300,71 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
     </div>
+
+
+    <!-- Our Blog Section Start -->
+    <?php if (!empty($latestPosts)): ?>
+    <div class="our-blog">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title section-title-center">
+                        <span class="section-sub-title wow fadeInUp">Latest blog</span>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Latest insights on land, <span>property and real estate</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <?php foreach ($latestPosts as $i => $post):
+                    $img = !empty($post['featured_image']) ? $post['featured_image'] : './assets/images/blogBG.jpg';
+                    $url = blog_url($post['slug']);
+                ?>
+                <div class="col-xl-4 col-md-6">
+                    <!-- Post Item Start -->
+                    <div class="post-item wow fadeInUp"<?php echo $i ? ' data-wow-delay="' . number_format($i * 0.2, 1) . 's"' : ''; ?>>
+                        <!-- Post Featured Image Start-->
+                        <div class="post-featured-image">
+                            <a href="<?php echo $url; ?>" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Post Featured Image End -->
+
+                        <!-- Post Item Body Start -->
+                        <div class="post-item-body">
+                            <!-- Post Item Content Start -->
+                            <div class="post-item-content">
+                                <h2><a href="<?php echo $url; ?>"><?php echo htmlspecialchars($post['title']); ?></a></h2>
+                            </div>
+                            <!-- Post Item Content End -->
+
+                            <!-- Post Item Readmore Button Start-->
+                            <div class="post-item-btn">
+                                <a href="<?php echo $url; ?>" class="readmore-btn">read more</a>
+                            </div>
+                            <!-- Post Item Readmore Button End-->
+                        </div>
+                        <!-- Post Item Body End -->
+                    </div>
+                    <!-- Post Item End -->
+                </div>
+                <?php endforeach; ?>
+
+                <div class="col-lg-12">
+                    <div class="section-footer-text section-satisfy-img wow fadeInUp" data-wow-delay="0.4s">
+                        <p><a href="blog">View all posts</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>
+    <!-- Our Blog Section End -->
 
     
     <script>
