@@ -96,5 +96,27 @@
     <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/function.js?v=<?php echo @filemtime(__DIR__ . '/../assets/js/function.js') ?: time(); ?>"></script>
 
+    <!-- Website traffic tracking — reports each page view to the Brit BackOffice -->
+    <script>
+        (function () {
+            // Only record real visits to the live site; skip local/staging.
+            if (!/(^|\.)britproperties\.ng$/i.test(location.hostname)) return;
+
+            var endpoint = 'https://backend.britproperties.ng/track.php';
+            var query = location.search ? location.search.substring(1) : ''; // forward utm_* params
+            var url = endpoint +
+                '?p=' + encodeURIComponent(location.pathname) +
+                '&r=' + encodeURIComponent(document.referrer || '') +
+                (query ? '&' + query : '');
+
+            try {
+                if (navigator.sendBeacon && navigator.sendBeacon(url)) return;
+            } catch (e) {}
+
+            // Fallback for browsers without sendBeacon.
+            (new Image()).src = url;
+        })();
+    </script>
+
 </body>
 </html>
