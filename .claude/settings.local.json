@@ -52,7 +52,19 @@
       "Bash(php -l auth/contact_auth.php)",
       "Bash(php -l auth/spelling_bee_auth.php)",
       "Bash(ls -d */)",
-      "Bash(ls -d *ack* *rit*)"
+      "Bash(ls -d *ack* *rit*)",
+      "Bash(curl -s -o /dev/null -w 'direct   -> %{http_code}\\\\n' http://localhost/brit-backoffice/track.php?p=/about)",
+      "Bash(python3 -c 'import urllib.parse;print\\(urllib.parse.quote\\(\"https://www.google.com/search?q=brit+properties\"\\)\\)')",
+      "Bash(curl -s -o /dev/null -w 'organic  -> %{http_code}\\\\n' 'http://localhost/brit-backoffice/track.php?p=/properties&r=__CMDSUB_OUTPUT__')",
+      "Bash(python3 -c 'import urllib.parse;print\\(urllib.parse.quote\\(\"https://www.facebook.com/\"\\)\\)')",
+      "Bash(curl -s -o /dev/null -w 'social   -> %{http_code}\\\\n' 'http://localhost/brit-backoffice/track.php?p=/blog&r=__CMDSUB_OUTPUT__')",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -e 'SELECT view_id, visited_at, path, source, LEFT\\(referrer,40\\) AS referrer FROM site_traffic ORDER BY view_id DESC LIMIT 5;')",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -e 'SELECT source, COUNT\\(*\\) AS views FROM site_traffic GROUP BY source ORDER BY views DESC;')",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -e 'SELECT COUNT\\(*\\) AS total_views FROM site_traffic;')",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -N -e 'SELECT DATE\\(visited_at\\) AS d, COUNT\\(*\\) AS c FROM site_traffic WHERE visited_at >= DATE_FORMAT\\(CURDATE\\(\\),'\\\\''%Y-%m-01'\\\\''\\) GROUP BY DATE\\(visited_at\\) ORDER BY d;')",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -N -e 'SELECT DATE_FORMAT\\(visited_at,'\\\\''%Y-%m'\\\\''\\) AS m, COUNT\\(*\\) c FROM site_traffic WHERE visited_at >= DATE_SUB\\(DATE_FORMAT\\(CURDATE\\(\\),'\\\\''%Y-%m-01'\\\\''\\), INTERVAL 5 MONTH\\) GROUP BY m ORDER BY m;')",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget"
     ]
   }
 }
