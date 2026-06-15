@@ -1,6 +1,12 @@
 <?php
 require_once "./config/db.php";
 
+// ─── Analytics: record this page view for the backoffice traffic chart ───────
+require_once __DIR__ . "/../utils/track_view.php";
+if (isset($pdo) && ($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'GET') {
+    record_site_view($pdo);
+}
+
 // ─── SEO: per-page metadata with sensible site-wide defaults ─────────────────
 $site_url = 'https://www.britproperties.ng';
 
@@ -103,10 +109,10 @@ $canonical = $canonical ?? rtrim($site_url, '/') . $req_path;
 <body>
 
     <!-- Preloader Start -->
-	<!-- <div class="preloader">
+	<div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
 			<div id="loading-icon"><img src="./assets/images/loader.svg" alt=""></div>
 		</div>
-	</div> -->
+	</div>
 	<!-- Preloader End -->

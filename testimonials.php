@@ -31,7 +31,7 @@ include "./components/navbar.php";
                    <div class="video-gallery-image wow fadeInUp">
                        <a href="https://www.youtube.com/watch?v=WU0tPubyxXQ" class="popup-video" data-cursor-text="Play">
                            <figure>
-                               <img src="./assets/images/test_2.jpeg" alt="">
+                               <img loading="lazy" src="./assets/images/test_2.jpeg" alt="">
                            </figure>
                        </a>
                    </div>
@@ -42,7 +42,7 @@ include "./components/navbar.php";
                    <div class="video-gallery-image wow fadeInUp" data-wow-delay="0.2s">
                        <a href="https://www.youtube.com/watch?v=Kwn-RgvOvx0" class="popup-video" data-cursor-text="Play">
                            <figure>
-                               <img src="./assets/images/test_3.jpeg" alt="">
+                               <img loading="lazy" src="./assets/images/test_3.jpeg" alt="">
                            </figure>
                        </a>
                    </div>
@@ -53,7 +53,7 @@ include "./components/navbar.php";
                    <div class="video-gallery-image wow fadeInUp" data-wow-delay="0.4s">
                        <a href="https://www.youtube.com/watch?v=pAMr96QTgQU" class="popup-video" data-cursor-text="Play">
                            <figure>
-                               <img src="./assets/images/test_1.jpeg" alt="">
+                               <img loading="lazy" src="./assets/images/test_1.jpeg" alt="">
                            </figure>
                        </a>
                    </div>
@@ -63,7 +63,7 @@ include "./components/navbar.php";
                    <div class="video-gallery-image wow fadeInUp" data-wow-delay="0.4s">
                        <a href="https://www.youtube.com/watch?v=vsrrS60j2fg" class="popup-video" data-cursor-text="Play">
                            <figure>
-                               <img src="./assets/images/test_4.jpeg" alt="">
+                               <img loading="lazy" src="./assets/images/test_4.jpeg" alt="">
                            </figure>
                        </a>
                    </div>

@@ -51,7 +51,7 @@ include "./components/navbar.php";
                     <div class="about-us-image-box wow fadeInUp">
                         <div class="about-us-image">
                             <figure class="image-anime">
-                                <img src="./assets/images/hme_abt.jpg" alt="" style="width:100%; height:100%; object-fit:cover; object-position:top;">
+                                <img loading="lazy" src="./assets/images/hme_abt.jpg" alt="" style="width:100%; height:100%; object-fit:cover; object-position:top;">
                             </figure>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ include "./components/navbar.php";
                         <div class="our-approach-image-box-1">
                             <div class="our-approach-image">
                                 <figure class="image-anime reveal">
-                                    <img src="./assets/images/abt-img2.jpg" alt="">
+                                    <img loading="lazy" src="./assets/images/abt-img2.jpg" alt="">
                                 </figure>
                             </div> 
                         </div>
@@ -102,7 +102,7 @@ include "./components/navbar.php";
                         <div class="our-approach-image-box-2">
                             <div class="our-approach-image">
                                 <figure class="image-anime reveal">
-                                    <img src="./assets/images/abt-img1.jpg" alt="">
+                                    <img loading="lazy" src="./assets/images/abt-img1.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ include "./components/navbar.php";
                         <div class="approach-item-box">
                             <div class="approach-item wow fadeInUp">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-approach-item-1.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-approach-item-1.svg" alt="">
                                 </div>
                                 <div class="approach-item-content">
                                     <h3>Our Mission</h3>
@@ -131,7 +131,7 @@ include "./components/navbar.php";
 
                             <div class="approach-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-approach-item-2.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-approach-item-2.svg" alt="">
                                 </div>
                                 <div class="approach-item-content">
                                     <h3>Our Vision</h3>
@@ -141,7 +141,7 @@ include "./components/navbar.php";
 
                             <div class="approach-item wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-approach-item-3.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-approach-item-3.svg" alt="">
                                 </div>
                                 <div class="approach-item-content">
                                     <h3>Our Purpose</h3>

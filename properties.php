@@ -44,7 +44,7 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <div class="project-item-image">
                             <a href="property-details?id=<?php echo $property['property_id']; ?>" data-cursor-text="View">
                                 <figure>
-                                    <img 
+                                    <img loading="lazy" 
                                         src="<?php echo htmlspecialchars($property['property_image']); ?>" 
                                         alt="<?php echo htmlspecialchars($property['title']); ?>"
                                         class="img-fluid"

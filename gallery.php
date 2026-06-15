@@ -33,7 +33,7 @@ include "./components/navbar.php";
                         <a href="csr-abuja">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/csr-abuja/22.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img loading="lazy" src="./assets/images/csr-abuja/22.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
@@ -49,7 +49,7 @@ include "./components/navbar.php";
                         <a href="csr-lagos">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/csr-lagos/6.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img loading="lazy" src="./assets/images/csr-lagos/6.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
@@ -66,7 +66,7 @@ include "./components/navbar.php";
                         <a href="csr-uyo">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/csr-uyo/92.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img loading="lazy" src="./assets/images/csr-uyo/92.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
@@ -83,7 +83,7 @@ include "./components/navbar.php";
                         <a href="dan-park-allocation">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/dan-park-allocation/11.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img loading="lazy" src="./assets/images/dan-park-allocation/11.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
@@ -100,7 +100,7 @@ include "./components/navbar.php";
                         <a href="harmony-estate-allocation">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/harmony-estate-allocation/5.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img loading="lazy" src="./assets/images/harmony-estate-allocation/5.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
@@ -117,7 +117,7 @@ include "./components/navbar.php";
                         <a href="ima-city-allocation">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/ima-city-allocation/2.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img loading="lazy" src="./assets/images/ima-city-allocation/2.jpg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 
@@ -133,7 +133,7 @@ include "./components/navbar.php";
                         <a href="spelling-bee-one">
                             <div class="project-item-image">
                                 <figure>
-                                    <img src="./assets/images/spelling-bee/53.jpeg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
+                                    <img loading="lazy" src="./assets/images/spelling-bee/53.jpeg" class="img-fluid" style="aspect-ratio: 2 / 1.505;">
                                 </figure>
                             </div>
 

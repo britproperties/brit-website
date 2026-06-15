@@ -104,7 +104,7 @@ include "./components/navbar.php";
                         <div class="post-featured-image">
                             <a href="<?php echo $url; ?>" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
+                                    <img loading="lazy" src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
                                 </figure>
                             </a>
                         </div>

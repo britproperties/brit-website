@@ -46,7 +46,7 @@ include "./components/navbar.php";
 
 
      <div class="container-fluid p-0" style="margin-bottom: 110px !important;">
-        <img 
+        <img loading="lazy" 
             src="https://res.cloudinary.com/dhowyyjht/image/upload/v1778834193/career-frame_1_kogh9r.png" 
             alt="" 
             class="w-100 d-block"
@@ -71,7 +71,7 @@ include "./components/navbar.php";
                         <div class="why-choose-body-metal wow fadeInUp" data-wow-delay="0.4s">
                             <div class="why-choose-body-item-metal">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-why-choose-body-item-1-metal.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-why-choose-body-item-1-metal.svg" alt="">
                                 </div>
                                 <div class="why-choose-body-content-metal">
                                     <h3>Work-Life Balance</h3>
@@ -81,7 +81,7 @@ include "./components/navbar.php";
 
                             <div class="why-choose-body-item-metal">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-why-choose-body-item-2-metal.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-why-choose-body-item-2-metal.svg" alt="">
                                 </div>
                                 <div class="why-choose-body-content-metal">
                                     <h3>Career Development</h3>
@@ -91,7 +91,7 @@ include "./components/navbar.php";
 
                             <div class="why-choose-body-item-metal">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-pricing-3.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-pricing-3.svg" alt="">
                                 </div>
                                 <div class="why-choose-body-content-metal">
                                     <h3>Healthy Lifestyle</h3>
@@ -101,7 +101,7 @@ include "./components/navbar.php";
 
                             <div class="why-choose-body-item-metal">
                                 <div class="icon-box">
-                                    <img src="./assets/images/icon-why-choose-header-1-prime.svg" alt="">
+                                    <img loading="lazy" src="./assets/images/icon-why-choose-header-1-prime.svg" alt="">
                                 </div>
                                 <div class="why-choose-body-content-metal">
                                     <h3>Giving Back</h3>
@@ -131,7 +131,7 @@ include "./components/navbar.php";
             <div class="row text-center">
                 <!-- opening will be here -->
                  <div class="error-page-image wow fadeInUp">
-                    <img src="./assets/images/disabled-warning.png" style="width: 200px" alt="">
+                    <img loading="lazy" src="./assets/images/disabled-warning.png" style="width: 200px" alt="">
                 </div>
                  <h3>No Opening Now!</h3>
             </div>
