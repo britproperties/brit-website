@@ -139,7 +139,7 @@ include "./components/navbar.php";
                                     <label class="mb-3 d-block" style="font-weight: 600;">Media Consent:</label>
 
                                     <div class="form-check mb-3">
-                                        <input type="checkbox" name="consent_media_capture" class="form-check-input" id="consent_media_capture" value="yes">
+                                        <input type="checkbox" name="consent_media_capture" class="form-check-input" required id="consent_media_capture" value="yes">
                                         <label class="form-check-label" for="consent_media_capture" style="font-weight: 400;line-height: 23px;">
                                             I hereby grant permission to Brit Properties Nigeria Limited and its authorized media team to take photographs, video record, and/or interview my child during the Spelling Bee Competition.
                                         </label>
@@ -147,7 +147,7 @@ include "./components/navbar.php";
                                     </div>
 
                                     <div class="form-check mb-3">
-                                        <input type="checkbox" name="consent_media_usage" class="form-check-input" id="consent_media_usage" value="yes">
+                                        <input type="checkbox" name="consent_media_usage" class="form-check-input" required id="consent_media_usage" value="yes">
                                         <label class="form-check-label" for="consent_media_usage" style="font-weight: 400;line-height: 23px;">
                                             I understand that these images/videos may be used in promotional materials, press releases, event recaps, social media posts, or other related public content.
                                         </label>
@@ -155,7 +155,7 @@ include "./components/navbar.php";
                                     </div>
 
                                     <div class="form-check mb-3">
-                                        <input type="checkbox" name="consent_media_details" class="form-check-input" id="consent_media_details" value="yes">
+                                        <input type="checkbox" name="consent_media_details" class="form-check-input" required id="consent_media_details" value="yes">
                                         <label class="form-check-label" for="consent_media_details" style="font-weight: 400;line-height: 23px;">
                                             I give consent for my child’s first name, age, and school to be mentioned in media publications when necessary.
                                         </label>
@@ -163,7 +163,7 @@ include "./components/navbar.php";
                                     </div>
 
                                     <div class="form-check mb-3">
-                                        <input type="checkbox" name="consent_media_no_compensation" class="form-check-input" id="consent_media_no_compensation" value="yes">
+                                        <input type="checkbox" name="consent_media_no_compensation" class="form-check-input" required id="consent_media_no_compensation" value="yes">
                                         <label class="form-check-label" for="consent_media_no_compensation" style="font-weight: 400;line-height: 23px;">
                                             I understand that no monetary compensation will be provided for the use of these media materials.
                                         </label>
