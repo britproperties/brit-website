@@ -51,21 +51,8 @@ if (!$consent) {
     j(false, 'Parent/guardian consent is required to register.');
 }
 
-// Prevent duplicate entries — same first name, last name and email.
-// (utf8mb4_general_ci collation makes this match case-insensitively.)
-try {
-    $dup = $pdo->prepare(
-        "SELECT 1 FROM spelling_bee_registrations
-         WHERE first_name = ? AND last_name = ? AND email = ? LIMIT 1"
-    );
-    $dup->execute([$fname, $lname, $email]);
-    if ($dup->fetchColumn()) {
-        j(false, 'This candidate has already been registered with that name and email address.');
-    }
-} catch (Throwable $e) {
-    error_log('spelling_bee_auth duplicate-check: ' . $e->getMessage());
-    j(false, 'A database error occurred. Please try again later.');
-}
+// One email may be used for multiple registrations — no candidate-level
+// uniqueness is enforced.
 
 $stmt = $pdo->prepare(
     "INSERT INTO spelling_bee_registrations
@@ -91,13 +78,8 @@ for ($attempt = 0; $attempt < $maxAttempts; $attempt++) {
         $regNumber = $candidate;
         break;
     } catch (PDOException $e) {
-        // 23000 = integrity constraint violation.
+        // 23000 = integrity constraint violation → reg_number collision; retry.
         if ($e->getCode() === '23000') {
-            // Candidate already registered (race with the pre-insert check) → stop.
-            if (stripos($e->getMessage(), 'uq_candidate') !== false) {
-                j(false, 'This candidate has already been registered with that name and email address.');
-            }
-            // Otherwise it's a reg_number collision → retry with a new number.
             continue;
         }
         error_log('spelling_bee_auth: ' . $e->getMessage());

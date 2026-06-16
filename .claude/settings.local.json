@@ -64,7 +64,9 @@
       "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -N -e 'SELECT DATE\\(visited_at\\) AS d, COUNT\\(*\\) AS c FROM site_traffic WHERE visited_at >= DATE_FORMAT\\(CURDATE\\(\\),'\\\\''%Y-%m-01'\\\\''\\) GROUP BY DATE\\(visited_at\\) ORDER BY d;')",
       "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -N -e 'SELECT DATE_FORMAT\\(visited_at,'\\\\''%Y-%m'\\\\''\\) AS m, COUNT\\(*\\) c FROM site_traffic WHERE visited_at >= DATE_SUB\\(DATE_FORMAT\\(CURDATE\\(\\),'\\\\''%Y-%m-01'\\\\''\\), INTERVAL 5 MONTH\\) GROUP BY m ORDER BY m;')",
       "mcp__visualize__read_me",
-      "mcp__visualize__show_widget"
+      "mcp__visualize__show_widget",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -uroot brit_app -e \"SHOW INDEX FROM spelling_bee_registrations;\")",
+      "Bash(awk '{print $3, $5, $11}')"
     ]
   }
 }

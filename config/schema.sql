@@ -32,8 +32,7 @@ CREATE TABLE IF NOT EXISTS `spelling_bee_registrations` (
   `consent_media_no_compensation` TINYINT(1) NOT NULL DEFAULT 0,
   `created_at` DATETIME DEFAULT current_timestamp(),
   PRIMARY KEY (`registration_id`),
-  UNIQUE KEY `uq_reg_number` (`reg_number`),
-  UNIQUE KEY `uq_candidate` (`first_name`, `last_name`, `email`)
+  UNIQUE KEY `uq_reg_number` (`reg_number`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ── Blog ─────────────────────────────────────────────────────────────────────
