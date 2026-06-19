@@ -1,6 +1,7 @@
 <?php
 ob_start(); header('Content-Type: application/json'); session_start();
 require_once __DIR__ . '/../config/db.php';
+require_once __DIR__ . '/../utils/mailer.php';
 
 function j(bool $ok, string $m, array $extra = []): void {
     ob_clean();
@@ -95,6 +96,26 @@ if ($regNumber === null) {
     j(false, 'Registration is currently full. Please contact us at hello@britproperties.ng.');
 }
 
-// Registrations are stored in the database only — no email is sent.
+// ── Confirmation email to the applicant (Resend, default template) ───────────
+$applicantContent =
+    "<p style='font-size:14px;margin:0 0 15px;'>Dear " . htmlspecialchars($guardian) . ",</p>" .
+    "<p style='font-size:14px;margin:0 0 20px;'>Thank you for registering <strong>" . htmlspecialchars($fname . ' ' . $lname) . "</strong> for the Brit Spelling Bee Competition. The registration has been received successfully.</p>" .
+    "<div style='text-align:center;margin:25px 0;'>" .
+        "<p style='font-size:14px;margin:0 0 6px;color:#444;'>Your Registration Number</p>" .
+        "<div style='display:inline-block;background-color:#ed1c24;color:#fff;font-size:24px;letter-spacing:4px;padding:12px 28px;border-radius:5px;'>" . htmlspecialchars($regNumber) . "</div>" .
+    "</div>" .
+    "<p style='font-size:14px;margin:0 0 20px;'>Please keep this number safe — it will be required on the day of the competition.</p>" .
+    "<table style='font-size:14px;margin:0 0 20px;'>" .
+        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Candidate</td><td><strong>" . htmlspecialchars($fname . ' ' . $lname) . "</strong></td></tr>" .
+        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>School</td><td>" . htmlspecialchars($school) . "</td></tr>" .
+        "<tr><td style='padding:4px 12px 4px 0;color:#888;'>Class / Grade</td><td>" . htmlspecialchars($grade) . "</td></tr>" .
+    "</table>" .
+    "<p style='font-size:14px;margin:0 0 20px;'>If you have any questions, please reach out to <a href='mailto:hello@britproperties.ng'>our team</a>. We look forward to seeing you there!</p>";
+
+sendMail(
+    $email,
+    'Brit Spelling Bee — Registration Successful (No. ' . $regNumber . ')',
+    emailTemplate('Registration Successful', $applicantContent)
+);
 
 j(true, 'Registration submitted successfully! Your registration number is ' . $regNumber . '.', ['reg_number' => $regNumber]);
