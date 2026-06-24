@@ -735,7 +735,7 @@ header.main-header .header-sticky.active{
 
 .hero{
     position: relative;
-    background-image: url('../images/SnYdodTPLi2njTVntHwTaTmY.webp');
+    background-image: url('../images/videobg.png');
     align-content: end;
     min-height: 100vh;
     padding: 220px 0 80px;
@@ -4675,6 +4675,57 @@ header.main-header .header-sticky.active{
 
 .page-contact-us{
     padding: 100px 0 50px;
+}
+
+/* Privacy Policy Page */
+.page-privacy-policy {
+    padding: 80px 0 100px;
+}
+
+.privacy-policy-content {
+    line-height: 1.9;
+    color: var(--body-color);
+}
+
+.privacy-policy-content p {
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.privacy-policy-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 56px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--divider-color);
+}
+
+.privacy-policy-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.privacy-policy-content ul {
+    margin-bottom: 24px;
+    padding-left: 20px;
+}
+
+.privacy-policy-content ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.privacy-policy-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.privacy-policy-content a:hover {
+    text-decoration: underline;
 }
 
 .contact-us-content{

@@ -46,7 +46,7 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
 
     <div class="hero hero-video bg-section dark-section">
         <div class="hero-bg-video">
-            <video autoplay muted loop id="myvideo"><source src="https://res.cloudinary.com/dhowyyjht/video/upload/v1777699801/efTBaVeGNs9VxuZfNOIc3toHXSg_v5lrum.mp4" type="video/mp4"></video>
+            <video autoplay muted loop id="myvideo"><source src="https://res.cloudinary.com/dhowyyjht/video/upload/v1782229976/Lagos_Island_View_1_i2fxxz.mp4" type="video/mp4"></video>
         </div>
 
         <div class="container">

@@ -55,8 +55,8 @@
                             <ul>
                                 <li><a href="testimonials">Testimonials</a></li>
                                 <li><a href="">Affiliates</a></li>
-                                <li><a href="">Terms of Use</a></li>
-                                <li><a href="">Privacy policy</a></li>
+                                <li><a href="terms">Terms of Use</a></li>
+                                <li><a href="privacy">Privacy policy</a></li>
                             </ul>
                         </div>
                     </div>
