@@ -34,7 +34,7 @@ include "./components/navbar.php";
     <div class="page-contact-us">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8 mx-auto">
+                <div class="col-xl-8 mx-auto" style="display: none;">
                     <div class="contact-form">
                         <form id="spellingBeeForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
                             <div class="row">
@@ -187,6 +187,17 @@ include "./components/navbar.php";
 
                             <h4 class="mt-3">Registration Successful</h4>
                             <p>Check your email <span id="regSuccessEmail"></span> for your registration no.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-8 mx-auto">
+                    <div class="contact-form">
+                        <div class="text-center">
+                            <img src="./assets/images/do-not-enter.png" width="150" alt="">
+
+                            <h4 class="mt-3">Registration Closed</h4>
+                            <p>Stay tuned and anticipate the next edition of the Brit Spelling Bee Competition!</p>
                         </div>
                     </div>
                 </div>

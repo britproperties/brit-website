@@ -23,9 +23,11 @@
                                     </div>
                                     
                                     <div class="swiper-slide">
-                                        <div class="company-supports-logo">
-                                            <img src="./assets/images/client/3.png" alt="">
-                                        </div>
+                                        <a href="https://app.britproperties.ng" target="_blank">
+                                            <div class="company-supports-logo">
+                                                <img src="./assets/images/client/3.png" alt="">
+                                            </div>
+                                        </a>
                                     </div>
                                     
                                     <div class="swiper-slide">

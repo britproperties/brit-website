@@ -19,30 +19,6 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
 
 ?>
 
-    <!-- Spelling Bee Flyer Modal -->
-    <style>
-        .sb-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:99999;display:none;align-items:center;justify-content:center;padding:20px;}
-        .sb-modal-overlay.active{display:flex;}
-        .sb-modal-box{position:relative;max-width:440px;width:100%;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.45);animation:sbPop .3s ease;}
-        @keyframes sbPop{from{transform:scale(.92);opacity:0}to{transform:scale(1);opacity:1}}
-        .sb-modal-box img{display:block;width:100%;height:auto;}
-        .sb-modal-close{position:absolute;top:10px;right:12px;width:36px;height:36px;border:none;border-radius:50%;background:rgba(0,0,0,.55);color:#fff;font-size:22px;line-height:1;cursor:pointer;z-index:2;transition:background .2s;}
-        .sb-modal-close:hover{background:rgba(0,0,0,.8);}
-        .sb-modal-cta{padding:16px;text-align:center;}
-        .sb-modal-cta .btn-default{width:100%;display:inline-flex;justify-content:center;}
-    </style>
-
-    <div class="sb-modal-overlay" id="spellingBeeModal" role="dialog" aria-modal="true" aria-label="Brit Spelling Bee Competition">
-        <div class="sb-modal-box">
-            <button type="button" class="sb-modal-close" id="spellingBeeModalClose" aria-label="Close">&times;</button>
-            <a href="spelling-bee" aria-label="Register for the Brit Spelling Bee">
-                <img loading="lazy" src="./assets/images/spelling-bee-flyer.jpeg" alt="Brit Spelling Bee Competition flyer">
-            </a>
-            <div class="sb-modal-cta">
-                <a href="spelling-bee" class="btn-default">Register Now</a>
-            </div>
-        </div>
-    </div>
 
     <div class="hero hero-video bg-section dark-section">
         <div class="hero-bg-video">
@@ -366,9 +342,36 @@ $latestPosts = blog_get_posts($pdo, 3, 0);
     <?php endif; ?>
     <!-- Our Blog Section End -->
 
-    
+    <!-- Spelling Bee Flyer Modal -->
+    <style>
+        .sb-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:99999;display:none;align-items:center;justify-content:center;padding:20px;}
+        .sb-modal-overlay.active{display:flex;}
+        .sb-modal-box{position:relative;max-width:440px;width:100%;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.45);animation:sbPop .3s ease;}
+        @keyframes sbPop{from{transform:scale(.92);opacity:0}to{transform:scale(1);opacity:1}}
+        .sb-modal-box img{display:block;width:100%;height:auto;}
+        .sb-modal-close{position:absolute;top:10px;right:12px;width:36px;height:36px;border:none;border-radius:50%;background:rgba(0,0,0,.55);color:#fff;font-size:22px;line-height:1;cursor:pointer;z-index:2;transition:background .2s;}
+        .sb-modal-close:hover{background:rgba(0,0,0,.8);}
+        .sb-modal-cta{padding:16px;text-align:center;}
+        .sb-modal-cta .btn-default{width:100%;display:inline-flex;justify-content:center;}
+    </style>
+
+    <div class="sb-modal-overlay" id="spellingBeeModal" role="dialog" aria-modal="true" aria-label="Brit Spelling Bee Competition">
+        <div class="sb-modal-box">
+            <button type="button" class="sb-modal-close" id="spellingBeeModalClose" aria-label="Close">&times;</button>
+            <a href="spelling-bee" aria-label="Register for the Brit Spelling Bee">
+                <img loading="lazy" src="./assets/images/spelling-bee-flyer.jpeg" alt="Brit Spelling Bee Competition flyer">
+            </a>
+            <div class="sb-modal-cta">
+                <a href="spelling-bee" class="btn-default">Register Now</a>
+            </div>
+        </div>
+    </div>
+
     <script>
         (function () {
+            var active = false; // Set to true to re-enable the flyer modal
+            if (!active) return;
+
             var modal = document.getElementById('spellingBeeModal');
             if (!modal) return;
             var closeBtn = document.getElementById('spellingBeeModalClose');
