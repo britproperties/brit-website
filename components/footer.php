@@ -54,7 +54,7 @@
                             <h3 style="font-weight: 400;">Quick Links</h3>
                             <ul>
                                 <li><a href="testimonials">Testimonials</a></li>
-                                <li><a href="">Affiliates</a></li>
+                                <li><a href="site-inspection">Site Inspection</a></li>
                                 <li><a href="terms">Terms of Use</a></li>
                                 <li><a href="privacy">Privacy policy</a></li>
                             </ul>
