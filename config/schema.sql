@@ -35,6 +35,40 @@ CREATE TABLE IF NOT EXISTS `spelling_bee_registrations` (
   UNIQUE KEY `uq_reg_number` (`reg_number`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+CREATE TABLE IF NOT EXISTS `site_inspection_requests` (
+  `request_id` INT(11) NOT NULL AUTO_INCREMENT,
+  `first_name` VARCHAR(100) NOT NULL,
+  `last_name` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `phone` VARCHAR(50) NOT NULL,
+  `branch` VARCHAR(100) NOT NULL,
+  `referral_name` VARCHAR(255) NOT NULL,
+  `referral_phone` VARCHAR(50) NOT NULL,
+  `property_interest` VARCHAR(255) DEFAULT NULL,
+  `preferred_date` DATE NOT NULL,
+  `message` TEXT DEFAULT NULL,
+  `created_at` DATETIME DEFAULT current_timestamp(),
+  PRIMARY KEY (`request_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Managed from brit-backoffice/settings.php — populate the Branch and
+-- Property/Estate to Inspect dropdowns on site-inspection.php.
+CREATE TABLE IF NOT EXISTS `branches` (
+  `branch_id` INT(11) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(150) NOT NULL,
+  `created_at` DATETIME DEFAULT current_timestamp(),
+  PRIMARY KEY (`branch_id`),
+  UNIQUE KEY `uq_branch_name` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE IF NOT EXISTS `estates` (
+  `estate_id` INT(11) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(150) NOT NULL,
+  `created_at` DATETIME DEFAULT current_timestamp(),
+  PRIMARY KEY (`estate_id`),
+  UNIQUE KEY `uq_estate_name` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 -- ── Blog ─────────────────────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS `blog_posts` (
   `post_id` INT(11) NOT NULL AUTO_INCREMENT,

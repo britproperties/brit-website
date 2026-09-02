@@ -473,6 +473,37 @@
 	}
 	/* Spelling Bee registration validation end */
 
+	/* Site Inspection form validation */
+	var $inspectionform = $("#inspectionForm");
+	$inspectionform.validator({focus: false}).on("submit", function (event) {
+		if (!event.isDefaultPrevented()) {
+			event.preventDefault();
+			submitInspectionForm();
+		}
+	});
+
+	function submitInspectionForm(){
+		$.ajax({
+			type: "POST",
+			url: "auth/site_inspection_auth.php",
+			data: $inspectionform.serialize(),
+			dataType: "json",
+			success : function(res){
+				if (res && res.success){
+					$inspectionform[0].reset();
+					$inspectionform.closest(".contact-form").hide();
+					$("#inspectionSuccess").show();
+				} else {
+					$("#inspectionMsgSubmit").removeClass().addClass("h4 text-danger").text((res && res.message) || "Something went wrong. Please try again later.");
+				}
+			},
+			error : function(){
+				$("#inspectionMsgSubmit").removeClass().addClass("h4 text-danger").text("Something went wrong. Please try again later.");
+			}
+		});
+	}
+	/* Site Inspection form validation end */
+
 	/* Animated Wow Js */
 	new WOW().init();
 
